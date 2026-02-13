@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-13T12:06:41.948785+00:00",
+  "generated_at": "2026-02-13T14:38:10.933335+00:00",
   "items": [
     {
       "benchmark": "metr_hcast",
       "error": "",
       "id": "metr_time_horizon_1_1_runs",
       "parser": "default_jsonl",
-      "path": "/home/maciej/projects/METR-timehorizons-by-domain/data/sources/metr_time_horizon_1_1_runs.jsonl",
+      "path": "/home/runner/work/METR-timehorizons-by-domain/METR-timehorizons-by-domain/data/sources/metr_time_horizon_1_1_runs.jsonl",
       "source_type": "jsonl",
       "status": "ok",
       "url": "https://raw.githubusercontent.com/METR/eval-analysis-public/main/reports/time-horizon-1-1/data/raw/runs.jsonl"
@@ -16,7 +16,7 @@
       "error": "",
       "id": "metr_release_dates",
       "parser": "release_dates_yaml",
-      "path": "/home/maciej/projects/METR-timehorizons-by-domain/data/sources/metr_release_dates.yaml",
+      "path": "/home/runner/work/METR-timehorizons-by-domain/METR-timehorizons-by-domain/data/sources/metr_release_dates.yaml",
       "source_type": "yaml",
       "status": "ok",
       "url": "https://raw.githubusercontent.com/METR/eval-analysis-public/main/data/external/release_dates.yaml"
@@ -26,7 +26,7 @@
       "error": "",
       "id": "metr_cross_domain_readme",
       "parser": "passthrough",
-      "path": "/home/maciej/projects/METR-timehorizons-by-domain/data/sources/metr_cross_domain_readme.md",
+      "path": "/home/runner/work/METR-timehorizons-by-domain/METR-timehorizons-by-domain/data/sources/metr_cross_domain_readme.md",
       "source_type": "markdown",
       "status": "ok",
       "url": "https://raw.githubusercontent.com/METR/cross-domain-horizon/main/README.md"
