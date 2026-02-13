@@ -50,7 +50,7 @@ These numbers move fast. A year ago, the best AI agents could barely handle task
 
 This tracker exists to make that trajectory visible, domain by domain, as it happens.
 
-**→ [Explore the interactive version](https://your-username.github.io/METR-timehorizons-by-domain/)** for model-level drill-downs and adjustable forecasts.
+**→ [Explore the interactive version](https://mathias3.github.io/METR-timehorizons-by-domain/)** for model-level drill-downs and adjustable forecasts.
 
 ---
 
