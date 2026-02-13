@@ -1,0 +1,12 @@
+## 2026-02-13 12:06:42Z
+- domains: cybersecurity, ml_engineering, software_engineering, unknown
+- model_count: 19
+- sample_models: Claude 3 Opus (Inspect), Claude 3.5 Sonnet (New) (Inspect), Claude 3.5 Sonnet (Old) (Inspect), Claude 3.7 Sonnet (Inspect), Claude 4 Opus (Inspect), Claude 4.1 Opus (Inspect), Claude Opus 4.5 (Inspect), GPT-4 0314, GPT-4 1106 (Inspect), GPT-4 Turbo (Inspect)
+## 2026-02-13 12:01:07Z
+- domains: cybersecurity, ml_engineering, software_engineering, unknown
+- model_count: 19
+- sample_models: Claude 3 Opus (Inspect), Claude 3.5 Sonnet (New) (Inspect), Claude 3.5 Sonnet (Old) (Inspect), Claude 3.7 Sonnet (Inspect), Claude 4 Opus (Inspect), Claude 4.1 Opus (Inspect), Claude Opus 4.5 (Inspect), GPT-4 0314, GPT-4 1106 (Inspect), GPT-4 Turbo (Inspect)
+## 2026-02-13 11:31:43Z
+- domains: cybersecurity, ml_engineering, reasoning, software_engineering
+- model_count: 4
+- sample_models: model-alpha, model-beta, model-delta, model-gamma

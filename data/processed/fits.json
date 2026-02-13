@@ -1,0 +1,3924 @@
+{
+  "curves": [
+    {
+      "domain": "unknown",
+      "model": "Claude 3 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.8571428571428571
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.5
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.4166666666666667
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.55
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.27380952380952384
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.375
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.3076923076923077
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.12698412698412698
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.04225352112676056
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude 3 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.5
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.25
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude 3 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.625
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.625
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "Claude 3 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.8809523809523809
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.7727272727272727
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.9130434782608695
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.8
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.4642857142857143
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.6571428571428571
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.62
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.288135593220339
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.06451612903225806
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.1791044776119403
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.07777777777777778
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.5
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.75
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.25
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.375
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.125
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.6818181818181818
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.782608695652174
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.8
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.5555555555555556
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.40384615384615385
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.2459016393442623
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.06666666666666667
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.05813953488372093
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.045454545454545456
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.25
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.25
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.25
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.375
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.4166666666666667
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9791666666666666
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.9285714285714286
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.9090909090909091
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.9583333333333334
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.8095238095238095
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.8333333333333334
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.7647058823529411
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.53125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0967741935483871
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.25333333333333335
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.09183673469387756
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.5
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.25
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.125
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "Claude 4 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9895833333333334
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.9333333333333333
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.875
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.925
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.8181818181818182
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.68
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.297029702970297
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.15441176470588236
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.25
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude 4 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude 4 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.5
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.2
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.5
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "Claude 4 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.3870967741935484
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "Claude 4.1 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.9090909090909091
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.95
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.8690476190476191
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.9305555555555556
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.8653846153846154
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.671875
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0625
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.3684210526315789
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.09375
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.043478260869565216
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude 4.1 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude 4.1 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.75
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.5
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "Claude 4.1 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.375
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "Claude Opus 4.5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.9523809523809523
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.8
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.8571428571428571
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.9038461538461539
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.84375
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.28125
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.5921052631578947
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.3229166666666667
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.75
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude Opus 4.5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude Opus 4.5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "Claude Opus 4.5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.75
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "GPT-4 0314",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.8571428571428571
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.5
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.6333333333333333
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.7083333333333334
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.264
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.25757575757575757
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0449438202247191
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-4 0314",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "GPT-4 0314",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-4 0314",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.25
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.2222222222222222
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "GPT-4 1106 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9895833333333334
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.8809523809523809
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.5454545454545454
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.6
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.37349397590361444
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.375
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.23529411764705882
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.11290322580645161
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-4 1106 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.75
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.25
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-4 1106 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.125
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.625
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.5
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "GPT-4 1106 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "GPT-4 Turbo (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.9523809523809523
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.5909090909090909
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.625
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.6842105263157895
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.18292682926829268
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.2535211267605634
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.17307692307692307
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-4 Turbo (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.25
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-4 Turbo (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.625
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "GPT-4 Turbo (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "GPT-4o (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.9523809523809523
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.7727272727272727
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.7083333333333334
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.4
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.38095238095238093
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.375
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.28846153846153844
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.09375
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.013157894736842105
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.03125
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.25
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-4o (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.75
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.75
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.75
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-4o (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.625
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.875
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.875
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.125
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "GPT-4o (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "GPT-5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.9166666666666666
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.85
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.8809523809523809
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.9722222222222222
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.9038461538461539
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.7746478873239436
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.09375
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.45454545454545453
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.29
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.25
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.25
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "GPT-5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.75
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.9666666666666667
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.8888888888888888
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.9907407407407407
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.9487179487179487
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.7604166666666666
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.22916666666666666
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.5043478260869565
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.3263888888888889
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.1111111111111111
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "GPT-5.2",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.984375
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.85
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.896551724137931
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.9821428571428571
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.9375
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.2564102564102564
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.65
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.3942307692307692
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.1111111111111111
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.75
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-5.2",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-5.2",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.75
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "GPT-5.2",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.9375
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "Gemini 3 Pro",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9791666666666666
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.9047619047619048
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.9305555555555556
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.9807692307692307
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.828125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.21875
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.4868421052631579
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.2916666666666667
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.125
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.5
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Gemini 3 Pro",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Gemini 3 Pro",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "Gemini 3 Pro",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.4375
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "human",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 0.9787234042553191
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9824561403508771
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.88
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.6923076923076923
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.8125
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.6410256410256411
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.7076923076923077
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.5161290322580645
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.5217391304347826
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.3684210526315789
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.28888888888888886
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.45454545454545453
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.2
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "human",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.8115942028985508
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.7931034482758621
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "human",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.8333333333333334
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "o1 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 0.9871794871794872
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9895833333333334
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.7916666666666666
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.65
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.6547619047619048
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.7916666666666666
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.7307692307692307
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.59375
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.15789473684210525
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0625
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "o1 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "o1 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.9166666666666666
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.875
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.5
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "o1 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.25
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "o1-preview",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.95
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.825
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.6875
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.5375
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.725925925925926
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.5789473684210527
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.3220338983050847
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.06422018348623854
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0410958904109589
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "o1-preview",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.375
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "o1-preview",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "o1-preview",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.625
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.875
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.9375
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.8125
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.375
+        }
+      ]
+    },
+    {
+      "domain": "unknown",
+      "model": "o3 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9895833333333334
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.7
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.9047619047619048
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.9861111111111112
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.9038461538461539
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.746031746031746
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0967741935483871
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.3717948717948718
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.19791666666666666
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.041666666666666664
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "o3 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "o3 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.5
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "o3 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0
+        }
+      ]
+    }
+  ],
+  "domain_horizons": [
+    {
+      "domain": "cybersecurity",
+      "doubling_time_months": null,
+      "horizon_ci_high_minutes": 256.0,
+      "horizon_ci_low_minutes": 2.0,
+      "horizon_p50_minutes": 51.4696,
+      "median_record_minutes": 7.18,
+      "models": 19,
+      "points": 1081
+    },
+    {
+      "domain": "ml_engineering",
+      "doubling_time_months": null,
+      "horizon_ci_high_minutes": 512.0,
+      "horizon_ci_low_minutes": 512.0,
+      "horizon_p50_minutes": 512.0,
+      "median_record_minutes": 480.0,
+      "models": 18,
+      "points": 330
+    },
+    {
+      "domain": "software_engineering",
+      "doubling_time_months": null,
+      "horizon_ci_high_minutes": 48.2008,
+      "horizon_ci_low_minutes": 8.0,
+      "horizon_p50_minutes": 8.0,
+      "median_record_minutes": 83.215,
+      "models": 19,
+      "points": 423
+    },
+    {
+      "domain": "unknown",
+      "doubling_time_months": null,
+      "horizon_ci_high_minutes": 93.9152,
+      "horizon_ci_low_minutes": 2.7878,
+      "horizon_p50_minutes": 61.778,
+      "median_record_minutes": 7.571,
+      "models": 19,
+      "points": 19181
+    }
+  ],
+  "generated_at": "2026-02-13T12:06:42.458522+00:00",
+  "model_domain": [
+    {
+      "beta_proxy": -0.040004,
+      "domain": "cybersecurity",
+      "horizon_minutes": 36.7583,
+      "model": "Claude 3 Opus (Inspect)",
+      "n_points": 52,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.062943,
+      "domain": "cybersecurity",
+      "horizon_minutes": 45.2548,
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "n_points": 52,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.003571,
+      "domain": "cybersecurity",
+      "horizon_minutes": 45.2548,
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "n_points": 47,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.063608,
+      "domain": "cybersecurity",
+      "horizon_minutes": 2.0,
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "n_points": 52,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.050266,
+      "domain": "cybersecurity",
+      "horizon_minutes": 2.0,
+      "model": "Claude 4 Opus (Inspect)",
+      "n_points": 72,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.072252,
+      "domain": "cybersecurity",
+      "horizon_minutes": 3.0314,
+      "model": "Claude 4.1 Opus (Inspect)",
+      "n_points": 52,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.103723,
+      "domain": "cybersecurity",
+      "horizon_minutes": 256.0,
+      "model": "Claude Opus 4.5 (Inspect)",
+      "n_points": 52,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.071429,
+      "domain": "cybersecurity",
+      "horizon_minutes": 12.1257,
+      "model": "GPT-4 0314",
+      "n_points": 72,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.043661,
+      "domain": "cybersecurity",
+      "horizon_minutes": 16.0,
+      "model": "GPT-4 1106 (Inspect)",
+      "n_points": 52,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.046653,
+      "domain": "cybersecurity",
+      "horizon_minutes": 18.3792,
+      "model": "GPT-4 Turbo (Inspect)",
+      "n_points": 52,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.076352,
+      "domain": "cybersecurity",
+      "horizon_minutes": 2.4162,
+      "model": "GPT-4o (Inspect)",
+      "n_points": 52,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.125665,
+      "domain": "cybersecurity",
+      "horizon_minutes": 50.7968,
+      "model": "GPT-5 (Inspect)",
+      "n_points": 52,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.103723,
+      "domain": "cybersecurity",
+      "horizon_minutes": 256.0,
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "n_points": 78,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.111037,
+      "domain": "cybersecurity",
+      "horizon_minutes": 161.2699,
+      "model": "GPT-5.2",
+      "n_points": 52,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.103723,
+      "domain": "cybersecurity",
+      "horizon_minutes": 256.0,
+      "model": "Gemini 3 Pro",
+      "n_points": 52,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.004762,
+      "domain": "cybersecurity",
+      "horizon_minutes": 2.0,
+      "model": "human",
+      "n_points": 41,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.113586,
+      "domain": "cybersecurity",
+      "horizon_minutes": 64.0,
+      "model": "o1 (Inspect)",
+      "n_points": 52,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.057143,
+      "domain": "cybersecurity",
+      "horizon_minutes": 47.5518,
+      "model": "o1-preview",
+      "n_points": 95,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.118351,
+      "domain": "cybersecurity",
+      "horizon_minutes": 64.0,
+      "model": "o3 (Inspect)",
+      "n_points": 52,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "Claude 3 Opus (Inspect)",
+      "n_points": 13,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "Claude 4 Opus (Inspect)",
+      "n_points": 31,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "Claude 4.1 Opus (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "Claude Opus 4.5 (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "GPT-4 0314",
+      "n_points": 23,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "GPT-4 1106 (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "GPT-4 Turbo (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "GPT-4o (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "GPT-5 (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "n_points": 24,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "GPT-5.2",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "Gemini 3 Pro",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "o1 (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "o1-preview",
+      "n_points": 31,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_engineering",
+      "horizon_minutes": 512.0,
+      "model": "o3 (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.135714,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "Claude 3 Opus (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.042857,
+      "domain": "software_engineering",
+      "horizon_minutes": 90.5097,
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.021429,
+      "domain": "software_engineering",
+      "horizon_minutes": 50.7968,
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "Claude 4 Opus (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "Claude 4.1 Opus (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "Claude Opus 4.5 (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.190476,
+      "domain": "software_engineering",
+      "horizon_minutes": 38.0546,
+      "model": "GPT-4 0314",
+      "n_points": 24,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.0,
+      "domain": "software_engineering",
+      "horizon_minutes": 45.2548,
+      "model": "GPT-4 1106 (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.007143,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "GPT-4 Turbo (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.007143,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "GPT-4o (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "GPT-5 (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "n_points": 24,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "GPT-5.2",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "Gemini 3 Pro",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.057528,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "human",
+      "n_points": 103,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "o1 (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.2,
+      "domain": "software_engineering",
+      "horizon_minutes": 47.5518,
+      "model": "o1-preview",
+      "n_points": 32,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "software_engineering",
+      "horizon_minutes": 8.0,
+      "model": "o3 (Inspect)",
+      "n_points": 16,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.072986,
+      "domain": "unknown",
+      "horizon_minutes": 1.0,
+      "model": "Claude 3 Opus (Inspect)",
+      "n_points": 957,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.069367,
+      "domain": "unknown",
+      "horizon_minutes": 7.4313,
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "n_points": 932,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.072905,
+      "domain": "unknown",
+      "horizon_minutes": 6.2457,
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "n_points": 926,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.065888,
+      "domain": "unknown",
+      "horizon_minutes": 67.2716,
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "n_points": 959,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.059625,
+      "domain": "unknown",
+      "horizon_minutes": 78.8848,
+      "model": "Claude 4 Opus (Inspect)",
+      "n_points": 1249,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.06328,
+      "domain": "unknown",
+      "horizon_minutes": 77.819,
+      "model": "Claude 4.1 Opus (Inspect)",
+      "n_points": 959,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.038799,
+      "domain": "unknown",
+      "horizon_minutes": 97.7558,
+      "model": "Claude Opus 4.5 (Inspect)",
+      "n_points": 960,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.07529,
+      "domain": "unknown",
+      "horizon_minutes": 5.5361,
+      "model": "GPT-4 0314",
+      "n_points": 1282,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073969,
+      "domain": "unknown",
+      "horizon_minutes": 1.1601,
+      "model": "GPT-4 1106 (Inspect)",
+      "n_points": 945,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.076782,
+      "domain": "unknown",
+      "horizon_minutes": 5.1604,
+      "model": "GPT-4 Turbo (Inspect)",
+      "n_points": 948,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.07178,
+      "domain": "unknown",
+      "horizon_minutes": 3.1947,
+      "model": "GPT-4o (Inspect)",
+      "n_points": 960,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.052112,
+      "domain": "unknown",
+      "horizon_minutes": 84.6455,
+      "model": "GPT-5 (Inspect)",
+      "n_points": 972,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.055231,
+      "domain": "unknown",
+      "horizon_minutes": 89.8967,
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "n_points": 1243,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.037471,
+      "domain": "unknown",
+      "horizon_minutes": 99.8959,
+      "model": "GPT-5.2",
+      "n_points": 877,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.046319,
+      "domain": "unknown",
+      "horizon_minutes": 92.9551,
+      "model": "Gemini 3 Pro",
+      "n_points": 960,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.055666,
+      "domain": "unknown",
+      "horizon_minutes": 70.6095,
+      "model": "human",
+      "n_points": 629,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.068451,
+      "domain": "unknown",
+      "horizon_minutes": 71.4021,
+      "model": "o1 (Inspect)",
+      "n_points": 960,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073073,
+      "domain": "unknown",
+      "horizon_minutes": 39.5962,
+      "model": "o1-preview",
+      "n_points": 1503,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.060704,
+      "domain": "unknown",
+      "horizon_minutes": 83.2249,
+      "model": "o3 (Inspect)",
+      "n_points": 960,
+      "release_date": ""
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# raw source cache (keep manifest + fixtures tracked)
+data/sources/*
+!data/sources/.gitkeep
+!data/sources/index.json
+!data/sources/*.jsonl
+!data/sources/*.yaml

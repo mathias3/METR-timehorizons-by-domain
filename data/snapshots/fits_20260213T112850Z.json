@@ -1,0 +1,145 @@
+{
+  "curves": [
+    {
+      "domain": "software_engineering",
+      "model": "model-alpha",
+      "points": [
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_engineering",
+      "model": "model-beta",
+      "points": [
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "model-gamma",
+      "points": [
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "model-delta",
+      "points": [
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0
+        }
+      ]
+    }
+  ],
+  "domain_horizons": [
+    {
+      "domain": "cybersecurity",
+      "doubling_time_months": null,
+      "horizon_ci_high_minutes": 64.0,
+      "horizon_ci_low_minutes": 64.0,
+      "horizon_p50_minutes": 64.0,
+      "median_record_minutes": 105.0,
+      "models": 1,
+      "points": 2
+    },
+    {
+      "domain": "ml_engineering",
+      "doubling_time_months": null,
+      "horizon_ci_high_minutes": 45.2548,
+      "horizon_ci_low_minutes": 45.2548,
+      "horizon_p50_minutes": 45.2548,
+      "median_record_minutes": 70.0,
+      "models": 1,
+      "points": 2
+    },
+    {
+      "domain": "reasoning",
+      "doubling_time_months": null,
+      "horizon_ci_high_minutes": 32.0,
+      "horizon_ci_low_minutes": 32.0,
+      "horizon_p50_minutes": 32.0,
+      "median_record_minutes": 52.5,
+      "models": 1,
+      "points": 2
+    },
+    {
+      "domain": "software_engineering",
+      "doubling_time_months": null,
+      "horizon_ci_high_minutes": 32.0,
+      "horizon_ci_low_minutes": 32.0,
+      "horizon_p50_minutes": 32.0,
+      "median_record_minutes": 38.0,
+      "models": 1,
+      "points": 2
+    }
+  ],
+  "generated_at": "2026-02-13T11:28:50.994760+00:00",
+  "model_domain": [
+    {
+      "beta_proxy": -0.5,
+      "domain": "cybersecurity",
+      "horizon_minutes": 64.0,
+      "model": "model-gamma",
+      "n_points": 2,
+      "release_date": "2025-04-01"
+    },
+    {
+      "beta_proxy": -0.333333,
+      "domain": "ml_engineering",
+      "horizon_minutes": 45.2548,
+      "model": "model-beta",
+      "n_points": 2,
+      "release_date": "2025-01-15"
+    },
+    {
+      "beta_proxy": -0.5,
+      "domain": "reasoning",
+      "horizon_minutes": 32.0,
+      "model": "model-delta",
+      "n_points": 2,
+      "release_date": "2025-08-20"
+    },
+    {
+      "beta_proxy": -0.5,
+      "domain": "software_engineering",
+      "horizon_minutes": 32.0,
+      "model": "model-alpha",
+      "n_points": 2,
+      "release_date": "2024-09-01"
+    }
+  ]
+}

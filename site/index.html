@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>METR Cross-Domain Time Horizon Tracker</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header class="hero">
+      <h1>METR Cross-Domain Time Horizon Tracker</h1>
+      <p>
+        Auto-updating horizon estimates by domain, built on top of public METR benchmark data.
+      </p>
+    </header>
+
+    <main class="grid">
+      <section class="card">
+        <h2>Domain Horizon Comparison</h2>
+        <div id="domain-chart" class="chart"></div>
+      </section>
+
+      <section class="card">
+        <h2>Model Trajectory by Domain</h2>
+        <label for="model-select">Model</label>
+        <select id="model-select"></select>
+        <div id="model-chart" class="chart"></div>
+      </section>
+
+      <section class="card full">
+        <h2>Forecast Explorer</h2>
+        <label for="doubling-slider">Assumed Doubling Time (months)</label>
+        <input id="doubling-slider" type="range" min="2" max="24" value="6" step="1" />
+        <p id="doubling-value">6 months</p>
+        <div id="forecast-chart" class="chart"></div>
+      </section>
+
+      <section class="card full">
+        <h2>Records (sample)</h2>
+        <div class="table-wrap">
+          <table id="records-table">
+            <thead>
+              <tr>
+                <th>Benchmark</th>
+                <th>Domain</th>
+                <th>Model</th>
+                <th>Release Date</th>
+                <th>Human Minutes</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p id="generated-at"></p>
+    </footer>
+  </body>
+</html>

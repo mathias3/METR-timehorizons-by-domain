@@ -1,0 +1,21 @@
+sources:
+  - id: metr_time_horizon_1_1_runs
+    benchmark: metr_hcast
+    source_repo: METR/eval-analysis-public
+    source_type: jsonl
+    parser: default_jsonl
+    url: https://raw.githubusercontent.com/METR/eval-analysis-public/main/reports/time-horizon-1-1/data/raw/runs.jsonl
+
+  - id: metr_release_dates
+    benchmark: metadata
+    source_repo: METR/eval-analysis-public
+    source_type: yaml
+    parser: release_dates_yaml
+    url: https://raw.githubusercontent.com/METR/eval-analysis-public/main/data/external/release_dates.yaml
+
+  - id: metr_cross_domain_readme
+    benchmark: cross_domain_metadata
+    source_repo: METR/cross-domain-horizon
+    source_type: markdown
+    parser: passthrough
+    url: https://raw.githubusercontent.com/METR/cross-domain-horizon/main/README.md
