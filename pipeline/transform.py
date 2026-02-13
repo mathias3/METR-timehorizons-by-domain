@@ -145,6 +145,9 @@ def normalize_run(
     if score_cont is None and score_bin is not None:
         score_cont = float(score_bin)
 
+    tokens_count = run.get("tokens_count")
+    generation_cost = run.get("generation_cost")
+
     release_date = (
         run.get("release_date")
         or release_dates.get(model)
@@ -162,6 +165,8 @@ def normalize_run(
         "human_minutes": float(run.get("human_minutes") or 0.0),
         "score": float(score_cont or 0.0),
         "score_binarized": int(score_bin or 0),
+        "tokens_count": float(tokens_count) if tokens_count not in (None, "") else None,
+        "generation_cost": float(generation_cost) if generation_cost not in (None, "") else None,
         "source": source_id,
     }
 

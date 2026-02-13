@@ -26,6 +26,108 @@ function renderDomainChart(data) {
   }, { responsive: true });
 }
 
+function shortModelName(name) {
+  return name.replace(" (Inspect)", "");
+}
+
+function renderTokenEfficiency(data) {
+  const econ = data.agent_economics || {};
+  const models = (econ.models || [])
+    .filter((m) => Number.isFinite(m.tokens_per_success_hour))
+    .sort((a, b) => a.tokens_per_success_hour - b.tokens_per_success_hour)
+    .slice(0, 12);
+
+  const trace = {
+    type: "bar",
+    x: models.map((m) => shortModelName(m.model)),
+    y: models.map((m) => m.tokens_per_success_hour),
+    marker: { color: "#1d4ed8" },
+  };
+
+  Plotly.newPlot(
+    "token-efficiency-chart",
+    [trace],
+    {
+      margin: { t: 10 },
+      xaxis: { tickangle: -25 },
+      yaxis: { title: "Tokens per successful autonomous hour" },
+    },
+    { responsive: true }
+  );
+}
+
+function renderCostEfficiency(data, presetKey) {
+  const econ = data.agent_economics || {};
+  const models = (econ.models || [])
+    .filter((m) => m.estimated_cost_scenarios && m.estimated_cost_scenarios[presetKey])
+    .map((m) => ({
+      model: m.model,
+      usd: m.estimated_cost_scenarios[presetKey].usd_per_autonomous_hour,
+    }))
+    .filter((m) => Number.isFinite(m.usd))
+    .sort((a, b) => a.usd - b.usd)
+    .slice(0, 12);
+
+  const trace = {
+    type: "bar",
+    x: models.map((m) => shortModelName(m.model)),
+    y: models.map((m) => m.usd),
+    marker: { color: "#0f766e" },
+  };
+
+  Plotly.newPlot(
+    "cost-efficiency-chart",
+    [trace],
+    {
+      margin: { t: 10 },
+      xaxis: { tickangle: -25 },
+      yaxis: { title: "Estimated USD per autonomous hour" },
+    },
+    { responsive: true }
+  );
+}
+
+function setupSplitSelector(data) {
+  const econ = data.agent_economics || {};
+  const splitPresets = econ.split_presets || {};
+  const select = document.getElementById("split-select");
+  const note = document.getElementById("split-note");
+  select.innerHTML = "";
+
+  const keys = Object.keys(splitPresets);
+  keys.forEach((key) => {
+    const preset = splitPresets[key];
+    const opt = document.createElement("option");
+    opt.value = key;
+    opt.textContent = preset.label || key;
+    select.appendChild(opt);
+  });
+
+  const defaultKey = keys.includes("input_70_output_30") ? "input_70_output_30" : keys[0];
+  if (defaultKey) {
+    select.value = defaultKey;
+    renderCostEfficiency(data, defaultKey);
+  }
+
+  const updateNote = () => {
+    const preset = splitPresets[select.value];
+    if (!preset) {
+      note.textContent = "";
+      return;
+    }
+    note.textContent = `Assumption: ${Math.round(preset.input_share * 100)}% input, ${Math.round(
+      preset.output_share * 100
+    )}% output. Source data does not contain input/output split.`;
+  };
+
+  select.addEventListener("change", () => {
+    renderCostEfficiency(data, select.value);
+    updateNote();
+  });
+
+  updateNote();
+}
+
 function renderModelSelector(data) {
   const select = document.getElementById("model-select");
   const models = [...new Set(data.model_domain.map((r) => r.model))].sort();
@@ -119,6 +221,9 @@ async function init() {
     };
     slider.addEventListener("input", render);
     render();
+
+    renderTokenEfficiency(data);
+    setupSplitSelector(data);
 
     renderTable(data);
     document.getElementById("generated-at").textContent = `Generated at: ${data.generated_at}`;

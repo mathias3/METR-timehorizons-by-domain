@@ -38,6 +38,20 @@
       </section>
 
       <section class="card full">
+        <h2>Agent Token Efficiency (Option A)</h2>
+        <p>Lower is better: total tokens used per 1 hour of successful autonomous work.</p>
+        <div id="token-efficiency-chart" class="chart"></div>
+      </section>
+
+      <section class="card full">
+        <h2>Estimated Cost per Autonomous Hour (Option B)</h2>
+        <label for="split-select">Assumed token split (input/output)</label>
+        <select id="split-select"></select>
+        <p id="split-note"></p>
+        <div id="cost-efficiency-chart" class="chart"></div>
+      </section>
+
+      <section class="card full">
         <h2>Records (sample)</h2>
         <div class="table-wrap">
           <table id="records-table">
