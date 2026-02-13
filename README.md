@@ -16,7 +16,7 @@ One of the most consequential questions in AI right now isn't *how smart* models
 
 ### How long can today's best AI work autonomously?
 
-The headline number varies dramatically by domain. ML engineering tasks see the longest autonomous runs, while software engineering remains a harder nut to crack.
+The headline number varies dramatically by domain. Some domains now support long autonomous runs, while others still break down quickly as task length grows.
 
 ![Domain time horizons](assets/charts/domain_horizons.png)
 
@@ -41,6 +41,26 @@ Not all models are created equal. Some excel at cybersecurity challenges but str
 ![Model comparison across domains](assets/charts/model_comparison.png)
 
 *Top 8 models ranked by their best single-domain horizon. ML Engineering horizons are capped at the benchmark ceiling (512 min) for most models — real capability may be higher.*
+
+---
+
+### Option A: Token efficiency (assumption-free)
+
+How many tokens does a model consume to sustain one successful hour of autonomous work?
+
+![Token efficiency](assets/charts/token_efficiency.png)
+
+*Lower is better. This chart uses observed `tokens_count` directly and does not assume an input/output split.*
+
+---
+
+### Option B: Estimated cost per autonomous hour (scenario)
+
+How expensive is one successful autonomous hour if we assume an input-heavy agent workload (70% input / 30% output)?
+
+![Estimated cost per hour](assets/charts/cost_efficiency_70_30.png)
+
+*Scenario estimate based on model list prices and assumed token split. Interactive dashboard also includes 50/50 and 90/10 presets.*
 
 ---
 
