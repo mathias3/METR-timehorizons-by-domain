@@ -1,52 +1,84 @@
-# METR Cross-Domain Time Horizon Tracker
+# How Long Can AI Actually Work on Its Own?
 
-Auto-updating, interactive tracking of AI time horizons across domains and benchmarks.
+**A live, auto-updating tracker of AI autonomy across domains — built on [METR](https://metr.org/) benchmark data.**
 
-## Why this project
+---
 
-METR already published cross-domain analyses, but those are mostly point-in-time artifacts. This repo adds:
-- automated refreshes from upstream benchmark sources,
-- a unified dataset for downstream analysis,
-- interactive visualizations on a static site,
-- a contribution path for adding new benchmarks.
+One of the most consequential questions in AI right now isn't *how smart* models are — it's *how long* they can stay on task. Can an AI agent debug a codebase for an hour? Run a penetration test for a full afternoon? Train a model overnight without human intervention?
 
-## Quickstart
+[METR](https://metr.org/) (Model Evaluation & Threat Research) measures exactly this: the **time horizon** of AI systems — the longest task duration at which a model still succeeds at least half the time. This project takes their public benchmark data, breaks it down by domain, and keeps the picture up to date automatically.
+
+> **The charts below update weekly via GitHub Actions.** No manual curation — just data.
+
+---
+
+## The current picture
+
+### How long can today's best AI work autonomously?
+
+The headline number varies dramatically by domain. ML engineering tasks see the longest autonomous runs, while software engineering remains a harder nut to crack.
+
+![Domain time horizons](assets/charts/domain_horizons.png)
+
+*Each bar shows the estimated 50th-percentile time horizon — the task length at which the best available models still succeed half the time. Error bars indicate the confidence range across models.*
+
+---
+
+### At what task length does AI start failing?
+
+Short tasks are easy. But as tasks stretch from seconds to minutes to hours, success rates fall off — and the drop-off point differs sharply between domains.
+
+![Success curves by domain](assets/charts/success_curves.png)
+
+*Each line averages across all evaluated models for that domain. The dashed line marks 50% success — the conventional "time horizon" threshold.*
+
+---
+
+### Which models last longest — and where?
+
+Not all models are created equal. Some excel at cybersecurity challenges but struggle with open-ended engineering. The chart below compares the top performers across domains.
+
+![Model comparison across domains](assets/charts/model_comparison.png)
+
+*Top 8 models ranked by their best single-domain horizon. ML Engineering horizons are capped at the benchmark ceiling (512 min) for most models — real capability may be higher.*
+
+---
+
+## What this means
+
+These numbers move fast. A year ago, the best AI agents could barely handle tasks longer than a few minutes. Today, several models sustain useful work for over an hour in at least one domain — and the frontier is still expanding.
+
+This tracker exists to make that trajectory visible, domain by domain, as it happens.
+
+**→ [Explore the interactive version](https://your-username.github.io/METR-timehorizons-by-domain/)** for model-level drill-downs and adjustable forecasts.
+
+---
+
+## How it works
+
+A Python pipeline ingests METR's public benchmark data weekly, fits time-horizon estimates per domain and model, and regenerates every chart and the interactive site. The whole process runs on GitHub Actions — zero cost, fully reproducible.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add new benchmark sources or improve the analysis.
+
+<details>
+<summary><strong>Run it yourself</strong></summary>
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+python -m venv .venv && source .venv/bin/activate
 pip install -e .[dev]
 python -m pipeline.ingest
 python -m pipeline.transform
 python -m pipeline.fit
 python -m pipeline.export
+python -m pipeline.charts
 ```
 
-Open `site/index.html` in a browser (or serve the folder) to explore charts.
+Then open `site/index.html` in a browser.
 
-## Data flow
+</details>
 
-1. `pipeline.ingest` downloads raw benchmark inputs into `data/sources/`
-2. `pipeline.transform` normalizes records into `data/processed/unified_records.jsonl`
-3. `pipeline.fit` computes domain-level horizon proxies + growth estimates into `data/processed/fits.json`
-4. `pipeline.export` writes `site/data.json` for the frontend
-
-## Auto-updates
-
-GitHub Actions workflow: `.github/workflows/update.yml`
-- runs weekly and on manual trigger,
-- refreshes data + site artifacts,
-- commits changes if outputs changed,
-- publishes `site/` to GitHub Pages.
-
-## Repository layout
-
-- `pipeline/` Python pipeline modules
-- `data/` source, processed, snapshots, and registry config
-- `site/` static Plotly.js app
-- `tests/` lightweight unit tests
-- `docs/brainstorm/` preserved original idea notes
+---
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).

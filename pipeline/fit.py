@@ -42,16 +42,32 @@ def estimate_horizon(points: list[dict[str, Any]]) -> tuple[float, float, list[d
         success = sum(ys) / len(ys)
         curve.append({"log2_minutes": float(x_bin), "minutes": float(2**x_bin), "success": success})
 
-    # Find first crossing from >=0.5 to <0.5.
-    horizon = curve[0]["minutes"]
-    for i in range(len(curve) - 1):
-        a, b = curve[i], curve[i + 1]
-        if a["success"] >= 0.5 and b["success"] < 0.5:
-            span = max(a["success"] - b["success"], 1e-6)
-            frac = (a["success"] - 0.5) / span
-            log2_h = a["log2_minutes"] + frac * (b["log2_minutes"] - a["log2_minutes"])
-            horizon = float(2**log2_h)
-            break
+    # Enforce a non-increasing success profile with duration to reduce noise artifacts.
+    running = 1.0
+    for row in curve:
+        running = min(running, row["success"])
+        row["success_smoothed"] = running
+
+    smoothed = [row["success_smoothed"] for row in curve]
+    minutes = [row["minutes"] for row in curve]
+
+    # Robust fallback behavior:
+    # - if always >= 50%: horizon is right-censored at the maximum observed duration
+    # - if always < 50%: horizon is below minimum observed duration
+    if all(s >= 0.5 for s in smoothed):
+        horizon = minutes[-1]
+    elif all(s < 0.5 for s in smoothed):
+        horizon = minutes[0]
+    else:
+        horizon = minutes[0]
+        for i in range(len(curve) - 1):
+            a, b = curve[i], curve[i + 1]
+            if a["success_smoothed"] >= 0.5 and b["success_smoothed"] < 0.5:
+                span = max(a["success_smoothed"] - b["success_smoothed"], 1e-6)
+                frac = (a["success_smoothed"] - 0.5) / span
+                log2_h = a["log2_minutes"] + frac * (b["log2_minutes"] - a["log2_minutes"])
+                horizon = float(2**log2_h)
+                break
 
     xs = np.array([p["log2_minutes"] for p in curve], dtype=float)
     ys = np.array([p["success"] for p in curve], dtype=float)
