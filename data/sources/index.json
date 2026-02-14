@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-02-14T21:42:47.005313+00:00",
+  "generated_at": "2026-02-14T22:05:30.322862+00:00",
   "items": [
     {
       "benchmark": "metr_hcast",
-      "error": "",
+      "error": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=30)",
       "id": "metr_time_horizon_latest_runs",
       "parser": "default_jsonl",
       "path": "/home/runner/work/METR-timehorizons-by-domain/METR-timehorizons-by-domain/data/sources/metr_time_horizon_latest_runs.jsonl",
       "source_type": "jsonl",
-      "status": "ok",
+      "status": "error",
       "url": "https://raw.githubusercontent.com/METR/eval-analysis-public/main/reports/time-horizon-1-1/data/raw/runs.jsonl"
     },
     {

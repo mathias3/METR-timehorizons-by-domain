@@ -1,14 +1,10 @@
 {
   "benchmarks": [
-    "metr_hcast"
+    "synthetic"
   ],
   "domains": [
-    "cybersecurity",
-    "data_analysis",
-    "ml_research",
-    "reasoning",
     "software_engineering"
   ],
-  "generated_at": "2026-02-14T21:42:47.423209+00:00",
-  "rows": 21015
+  "generated_at": "2026-02-14T22:05:30.388235+00:00",
+  "rows": 1
 }
