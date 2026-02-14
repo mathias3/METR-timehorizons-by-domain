@@ -1,3 +1,7 @@
+## 2026-02-14 22:05:30Z
+- domains: software_engineering
+- model_count: 1
+- sample_models: demo-model
 ## 2026-02-14 21:42:47Z
 - domains: cybersecurity, data_analysis, ml_research, reasoning, software_engineering
 - model_count: 19
