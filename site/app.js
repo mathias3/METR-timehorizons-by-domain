@@ -39,6 +39,7 @@ const APP_STATE = {
   scrollerReady: false,
   scroller: null,
   storyStep: 0,
+  doublingMonths: 6,
 };
 
 function labelDomain(domain) {
@@ -62,6 +63,19 @@ function toMinutesLabel(minutes) {
   if (minutes >= 60) return `${(minutes / 60).toFixed(1)} h`;
   if (minutes >= 1) return `${minutes.toFixed(1)} min`;
   return `${(minutes * 60).toFixed(0)} s`;
+}
+
+function formatDurationTick(minutes) {
+  if (!Number.isFinite(minutes)) return "";
+  if (minutes < 1) return `${Math.round(minutes * 60)}s`;
+  if (minutes < 60) return `${Math.round(minutes)}m`;
+  if (minutes < 1440) {
+    const hours = minutes / 60;
+    const value = hours >= 10 ? Math.round(hours).toString() : hours.toFixed(1).replace(/\.0$/, "");
+    return `${value}h`;
+  }
+  const days = minutes / 1440;
+  return `${days.toFixed(1).replace(/\.0$/, "")}d`;
 }
 
 function getContainerWidth(id, fallback) {
@@ -266,13 +280,35 @@ function renderStoryChart(data, step = 0) {
     return { domain, points };
   });
 
-  const x = d3.scaleLog().domain([0.02, 600]).range([0, innerW]);
+  const maxCurveMinute = d3.max(
+    data.curves.flatMap((row) => row.points.map((point) => point.minutes)),
+    (minute) => minute
+  );
+  const x = d3.scaleLog().domain([0.02, Math.max(maxCurveMinute || 600, 24 * 60)]).range([0, innerW]);
   const y = d3.scaleLinear().domain([0, 100]).range([innerH, 0]);
+
+  const tickValues = [
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1,
+    2,
+    5,
+    10,
+    20,
+    60,
+    120,
+    240,
+    480,
+    1440,
+  ].filter((value) => value >= x.domain()[0] && value <= x.domain()[1]);
 
   g.append("g")
     .attr("class", "axis")
     .attr("transform", `translate(0,${innerH})`)
-    .call(d3.axisBottom(x).ticks(9, "~s"));
+    .call(d3.axisBottom(x).tickValues(tickValues).tickFormat((value) => formatDurationTick(value)));
 
   g.append("g").attr("class", "axis").call(d3.axisLeft(y).ticks(6).tickFormat((d) => `${d}%`));
 
@@ -281,7 +317,7 @@ function renderStoryChart(data, step = 0) {
     .attr("y", innerH + 42)
     .attr("text-anchor", "middle")
     .attr("fill", "#1c344a")
-    .text("Task duration (minutes, log scale)");
+    .text("Task duration (log scale, minutes/hours/days)");
 
   g.append("text")
     .attr("x", -innerH / 2)
@@ -435,6 +471,137 @@ function renderDomainLollipop(data) {
     })
     .on("mousemove", moveTooltip)
     .on("mouseleave", hideTooltip);
+}
+
+function renderForecast(data, doublingMonths) {
+  const targets = [
+    { key: "1h", minutes: 60, color: "#4f78b8" },
+    { key: "8h", minutes: 8 * 60, color: "#379f8c" },
+    { key: "1d", minutes: 24 * 60, color: "#cc5c67" },
+  ];
+
+  const rows = [...data.domain_horizons]
+    .map((row) => {
+      const baseline = Math.max(row.horizon_p50_minutes || 1, 1e-6);
+      const months = targets.map((target) => {
+        if (baseline >= target.minutes) return 0;
+        return Math.log2(target.minutes / baseline) * doublingMonths;
+      });
+      return {
+        domain: row.domain,
+        months,
+      };
+    })
+    .sort((a, b) => labelDomain(a.domain).localeCompare(labelDomain(b.domain)));
+
+  const width = getContainerWidth("forecast-chart", 980);
+  const height = 390;
+  const margin = { top: 20, right: 20, bottom: 60, left: 62 };
+  const innerW = width - margin.left - margin.right;
+  const innerH = height - margin.top - margin.bottom;
+  const svg = initSvg("forecast-chart", width, height);
+  const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+  const x0 = d3
+    .scaleBand()
+    .domain(rows.map((row) => row.domain))
+    .range([0, innerW])
+    .padding(0.2);
+
+  const x1 = d3
+    .scaleBand()
+    .domain(targets.map((target) => target.key))
+    .range([0, x0.bandwidth()])
+    .padding(0.14);
+
+  const maxMonth = d3.max(rows.flatMap((row) => row.months)) || 1;
+  const y = d3.scaleLinear().domain([0, maxMonth * 1.12]).nice().range([innerH, 0]);
+
+  g.append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(0,${innerH})`)
+    .call(d3.axisBottom(x0).tickFormat((domain) => labelDomain(domain)))
+    .selectAll("text")
+    .attr("transform", "rotate(-15)")
+    .style("text-anchor", "end");
+
+  g.append("g").attr("class", "axis").call(d3.axisLeft(y).ticks(6));
+
+  g.append("text")
+    .attr("x", -innerH / 2)
+    .attr("y", -42)
+    .attr("text-anchor", "middle")
+    .attr("transform", "rotate(-90)")
+    .attr("fill", "#1c344a")
+    .text("Months to reach target horizon");
+
+  const domainGroups = g
+    .selectAll("g.forecast-domain")
+    .data(rows)
+    .join("g")
+    .attr("class", "forecast-domain")
+    .attr("transform", (row) => `translate(${x0(row.domain)},0)`);
+
+  domainGroups
+    .selectAll("rect")
+    .data((row) => targets.map((target, index) => ({ ...target, domain: row.domain, value: row.months[index] })))
+    .join("rect")
+    .attr("x", (d) => x1(d.key))
+    .attr("y", innerH)
+    .attr("width", x1.bandwidth())
+    .attr("height", 0)
+    .attr("fill", (d) => d.color)
+    .attr("rx", 3)
+    .on("mouseenter", (event, d) => {
+      showTooltip(
+        event,
+        `<strong>${labelDomain(d.domain)}</strong><br>${d.key} target: ${d.value.toFixed(1)} months`
+      );
+    })
+    .on("mousemove", moveTooltip)
+    .on("mouseleave", hideTooltip)
+    .transition()
+    .duration(520)
+    .attr("y", (d) => y(d.value))
+    .attr("height", (d) => innerH - y(d.value));
+
+  const legend = g.append("g").attr("transform", `translate(${innerW - 140},8)`);
+  targets.forEach((target, index) => {
+    legend
+      .append("rect")
+      .attr("x", 0)
+      .attr("y", index * 18 - 10)
+      .attr("width", 10)
+      .attr("height", 10)
+      .attr("fill", target.color)
+      .attr("rx", 2);
+    legend
+      .append("text")
+      .attr("x", 16)
+      .attr("y", index * 18 - 1)
+      .style("font-size", "11px")
+      .attr("fill", "#25394d")
+      .text(target.key);
+  });
+}
+
+function setupDoublingSlider(data) {
+  const slider = document.getElementById("doubling-slider");
+  const valueEl = document.getElementById("doubling-value");
+  if (!slider || !valueEl) return;
+
+  if (!slider.dataset.bound) {
+    APP_STATE.doublingMonths = Number(slider.value) || APP_STATE.doublingMonths;
+    slider.dataset.bound = "1";
+    slider.addEventListener("input", () => {
+      APP_STATE.doublingMonths = Number(slider.value);
+      renderAll();
+    });
+  }
+
+  slider.value = String(APP_STATE.doublingMonths);
+  valueEl.textContent = `${APP_STATE.doublingMonths} months`;
+  renderForecast(data, APP_STATE.doublingMonths);
 }
 
 function renderHeatmap(data) {
@@ -740,10 +907,14 @@ function setupStoryScroller(data) {
     return;
   }
 
+  const storyTop = document.querySelector(".story-wrap")?.offsetTop || 0;
   APP_STATE.scroller = window.scrollama();
   APP_STATE.scroller
     .setup({ step: ".step", offset: 0.5, progress: false })
     .onStepEnter(({ element }) => {
+      if (window.scrollY < Math.max(storyTop - 24, 0)) {
+        return;
+      }
       const step = Number(element.getAttribute("data-step") || 0);
       activate(step);
     });
@@ -763,6 +934,7 @@ function renderAll() {
   });
   renderBubbleChart(data, bubbleRows, activeDomains);
   renderDomainLollipop(data);
+  setupDoublingSlider(data);
   renderHeatmap(data);
   renderTokenDotPlot(data);
   setupSplitSelector(data);

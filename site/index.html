@@ -95,6 +95,20 @@
 
         <section class="card full">
           <div class="card-head">
+            <h3>Forecast explorer: months to longer autonomous tasks</h3>
+            <p>
+              Assumes domain horizons keep doubling at a constant rate. Explore how many months until 1h,
+              8h, and 1d autonomous capability.
+            </p>
+          </div>
+          <label for="doubling-slider">Assumed doubling time (months)</label>
+          <input id="doubling-slider" type="range" min="2" max="24" value="6" step="1" />
+          <p id="doubling-value">6 months</p>
+          <div id="forecast-chart" class="chart medium"></div>
+        </section>
+
+        <section class="card full">
+          <div class="card-head">
             <h3>Model x Domain leaderboard</h3>
             <p>Heatmap of autonomy horizon (minutes). Higher intensity means longer sustained autonomy.</p>
           </div>
