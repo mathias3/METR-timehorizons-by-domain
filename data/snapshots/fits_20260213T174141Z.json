@@ -1,0 +1,7647 @@
+{
+  "curves": [
+    {
+      "domain": "ml_research",
+      "model": "Claude 3 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.125,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.15789473684210525,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude 3 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.3,
+          "success_smoothed": 0.3
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.5,
+          "success_smoothed": 0.3
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "Claude 3 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.8571428571428571,
+          "success_smoothed": 0.8571428571428571
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.8571428571428571
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.6428571428571429,
+          "success_smoothed": 0.6428571428571429
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.625,
+          "success_smoothed": 0.625
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude 3 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.08333333333333333,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.3333333333333333,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.40625,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.34375,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.46875,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.07142857142857142,
+          "success_smoothed": 0.07142857142857142
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "Claude 3 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.6666666666666666,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.3181818181818182,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.4166666666666667,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.21428571428571427,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.16129032258064516,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.125,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.3157894736842105,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.14285714285714285,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.8333333333333334,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.75,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.19047619047619047,
+          "success_smoothed": 0.19047619047619047
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.8809523809523809,
+          "success_smoothed": 0.8809523809523809
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.8809523809523809
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.7142857142857143,
+          "success_smoothed": 0.7142857142857143
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 0.7142857142857143
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.75,
+          "success_smoothed": 0.7142857142857143
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.5833333333333334,
+          "success_smoothed": 0.5833333333333334
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.3333333333333333,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.6875,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.6333333333333333,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.7666666666666667,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.2608695652173913,
+          "success_smoothed": 0.2608695652173913
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.13333333333333333,
+          "success_smoothed": 0.13333333333333333
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.7142857142857143,
+          "success_smoothed": 0.7142857142857143
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.75,
+          "success_smoothed": 0.7142857142857143
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.38636363636363635,
+          "success_smoothed": 0.38636363636363635
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.6944444444444444,
+          "success_smoothed": 0.38636363636363635
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.5714285714285714,
+          "success_smoothed": 0.38636363636363635
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.3125,
+          "success_smoothed": 0.3125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.18181818181818182,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.125,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.058823529411764705,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.08620689655172414,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.1,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.45,
+          "success_smoothed": 0.45
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.75,
+          "success_smoothed": 0.45
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.45
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.7142857142857143,
+          "success_smoothed": 0.7142857142857143
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.875,
+          "success_smoothed": 0.7142857142857143
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.7142857142857143
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.5454545454545454,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.4166666666666667,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.46875,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.59375,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.5483870967741935,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.17857142857142858,
+          "success_smoothed": 0.17857142857142858
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.6666666666666666,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.29545454545454547,
+          "success_smoothed": 0.29545454545454547
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.5555555555555556,
+          "success_smoothed": 0.29545454545454547
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.39285714285714285,
+          "success_smoothed": 0.29545454545454547
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.3103448275862069,
+          "success_smoothed": 0.29545454545454547
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.25,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.875,
+          "success_smoothed": 0.875
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.5789473684210527,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.15151515151515152,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.8333333333333334,
+          "success_smoothed": 0.8333333333333334
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 0.8333333333333334
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.8333333333333334
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.7,
+          "success_smoothed": 0.7
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.9166666666666666,
+          "success_smoothed": 0.7
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.7
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 0.7
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0,
+          "success_smoothed": 0.7
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.34782608695652173,
+          "success_smoothed": 0.34782608695652173
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.9285714285714286,
+          "success_smoothed": 0.9285714285714286
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.9285714285714286
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.8571428571428571,
+          "success_smoothed": 0.8571428571428571
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 0.8571428571428571
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.8571428571428571
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.6666666666666666,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.3333333333333333,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.75,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.75,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.8064516129032258,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.39285714285714285,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.2,
+          "success_smoothed": 0.2
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.875,
+          "success_smoothed": 0.875
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.875
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.9545454545454546,
+          "success_smoothed": 0.875
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.9166666666666666,
+          "success_smoothed": 0.875
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.7857142857142857,
+          "success_smoothed": 0.7857142857142857
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.53125,
+          "success_smoothed": 0.53125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.05,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "Claude 4 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.65,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.2967032967032967,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude 4 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.5333333333333333,
+          "success_smoothed": 0.5333333333333333
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.25,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "Claude 4 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9871794871794872,
+          "success_smoothed": 0.9871794871794872
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0,
+          "success_smoothed": 0.9871794871794872
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.9871794871794872
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.8571428571428571,
+          "success_smoothed": 0.8571428571428571
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 0.8571428571428571
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.8571428571428571
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude 4 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.7,
+          "success_smoothed": 0.7
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.2,
+          "success_smoothed": 0.2
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.8181818181818182,
+          "success_smoothed": 0.2
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.8461538461538461,
+          "success_smoothed": 0.2
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.9038461538461539,
+          "success_smoothed": 0.2
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.65,
+          "success_smoothed": 0.2
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.05,
+          "success_smoothed": 0.05
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "Claude 4 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.8863636363636364,
+          "success_smoothed": 0.8863636363636364
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.9852941176470589,
+          "success_smoothed": 0.8863636363636364
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.7708333333333334,
+          "success_smoothed": 0.7708333333333334
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.6428571428571429,
+          "success_smoothed": 0.6428571428571429
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.125,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.05263157894736842,
+          "success_smoothed": 0.05263157894736842
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.1875,
+          "success_smoothed": 0.05263157894736842
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "Claude 4.1 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.75,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.203125,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.08333333333333333,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude 4.1 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.5416666666666666,
+          "success_smoothed": 0.5416666666666666
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "Claude 4.1 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.8571428571428571,
+          "success_smoothed": 0.8571428571428571
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 0.8571428571428571
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.8571428571428571
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude 4.1 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.8333333333333334,
+          "success_smoothed": 0.8333333333333334
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.3333333333333333,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.75,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.84375,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.6071428571428571,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.125,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "Claude 4.1 Opus (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.9166666666666666,
+          "success_smoothed": 0.9166666666666666
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.9318181818181818,
+          "success_smoothed": 0.9166666666666666
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 0.9166666666666666
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.625,
+          "success_smoothed": 0.625
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.1,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "Claude Opus 4.5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.95,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.546875,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.3333333333333333,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude Opus 4.5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.95,
+          "success_smoothed": 0.95
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 0.95
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.95
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 0.95
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0,
+          "success_smoothed": 0.95
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.6666666666666666,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.75,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "Claude Opus 4.5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.9523809523809523,
+          "success_smoothed": 0.9523809523809523
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.9523809523809523
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 0.9523809523809523
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 0.9523809523809523
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.9523809523809523
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude Opus 4.5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.8571428571428571,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.3125,
+          "success_smoothed": 0.3125
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.3125,
+          "success_smoothed": 0.3125
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "Claude Opus 4.5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.6666666666666666,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.9318181818181818,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.8214285714285714,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.8125,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.3333333333333333,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.4166666666666667,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.2,
+          "success_smoothed": 0.2
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "GPT-4 0314",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-4 0314",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.8333333333333334,
+          "success_smoothed": 0.8333333333333334
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.8333333333333334
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.4482758620689655,
+          "success_smoothed": 0.4482758620689655
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.3888888888888889,
+          "success_smoothed": 0.3888888888888889
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.6666666666666666,
+          "success_smoothed": 0.3888888888888889
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "GPT-4 0314",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.8571428571428571,
+          "success_smoothed": 0.8571428571428571
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.8571428571428571
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-4 0314",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.4444444444444444,
+          "success_smoothed": 0.4444444444444444
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.2222222222222222,
+          "success_smoothed": 0.2222222222222222
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.4583333333333333,
+          "success_smoothed": 0.2222222222222222
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.22857142857142856,
+          "success_smoothed": 0.2222222222222222
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.25,
+          "success_smoothed": 0.2222222222222222
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.027777777777777776,
+          "success_smoothed": 0.027777777777777776
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "GPT-4 0314",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.5,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.9166666666666666,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.21212121212121213,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.34615384615384615,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.21428571428571427,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.06382978723404255,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "GPT-4 1106 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-4 1106 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.4,
+          "success_smoothed": 0.4
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.4166666666666667,
+          "success_smoothed": 0.4
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.75,
+          "success_smoothed": 0.4
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "GPT-4 1106 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9871794871794872,
+          "success_smoothed": 0.9871794871794872
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.8809523809523809,
+          "success_smoothed": 0.8809523809523809
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.8809523809523809
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.375,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-4 1106 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.08333333333333333,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.3333333333333333,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.5161290322580645,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.3125,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.1935483870967742,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.038461538461538464,
+          "success_smoothed": 0.038461538461538464
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "GPT-4 1106 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.125,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.6666666666666666,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.2727272727272727,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.4444444444444444,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.21428571428571427,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.1875,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "GPT-4 Turbo (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-4 Turbo (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.4,
+          "success_smoothed": 0.4
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "GPT-4 Turbo (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.9523809523809523,
+          "success_smoothed": 0.9523809523809523
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.9523809523809523
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.7142857142857143,
+          "success_smoothed": 0.7142857142857143
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-4 Turbo (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.08333333333333333,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.3333333333333333,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.28125,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.25806451612903225,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.1875,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.07142857142857142,
+          "success_smoothed": 0.07142857142857142
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "GPT-4 Turbo (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.75,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.8181818181818182,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.14285714285714285,
+          "success_smoothed": 0.14285714285714285
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.3333333333333333,
+          "success_smoothed": 0.14285714285714285
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.10714285714285714,
+          "success_smoothed": 0.10714285714285714
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.1875,
+          "success_smoothed": 0.10714285714285714
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "GPT-4o (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.125,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.05,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.046875,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-4o (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.65,
+          "success_smoothed": 0.65
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.75,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.75,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.25,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "GPT-4o (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.9523809523809523,
+          "success_smoothed": 0.9523809523809523
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.9523809523809523
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.7142857142857143,
+          "success_smoothed": 0.7142857142857143
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.75,
+          "success_smoothed": 0.7142857142857143
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-4o (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.16666666666666666,
+          "success_smoothed": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.375,
+          "success_smoothed": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.375,
+          "success_smoothed": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.25,
+          "success_smoothed": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.03571428571428571,
+          "success_smoothed": 0.03571428571428571
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "GPT-4o (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.38636363636363635,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.4444444444444444,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.2857142857142857,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.125,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "GPT-5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.7,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.5692307692307692,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.3333333333333333,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.625,
+          "success_smoothed": 0.625
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.25,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "GPT-5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.71875,
+          "success_smoothed": 0.71875
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.96875,
+          "success_smoothed": 0.71875
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.71875
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.8571428571428571,
+          "success_smoothed": 0.71875
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0625,
+          "success_smoothed": 0.0625
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.23529411764705882,
+          "success_smoothed": 0.0625
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "GPT-5 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.9772727272727273,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.9722222222222222,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.8214285714285714,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.6666666666666666,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.16666666666666666,
+          "success_smoothed": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.16666666666666666,
+          "success_smoothed": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.19047619047619047,
+          "success_smoothed": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.7,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.5520833333333334,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.2222222222222222,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.6666666666666666,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.7857142857142857,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.08333333333333333,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.20833333333333334,
+          "success_smoothed": 0.08333333333333333
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.9444444444444444,
+          "success_smoothed": 0.9444444444444444
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.9696969696969697,
+          "success_smoothed": 0.9444444444444444
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.9814814814814815,
+          "success_smoothed": 0.9444444444444444
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.9047619047619048,
+          "success_smoothed": 0.9047619047619048
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.7708333333333334,
+          "success_smoothed": 0.7708333333333334
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.4444444444444444,
+          "success_smoothed": 0.4444444444444444
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.23333333333333334,
+          "success_smoothed": 0.23333333333333334
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "GPT-5.2",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 1.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.609375,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.2,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-5.2",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.95,
+          "success_smoothed": 0.95
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 0.95
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.95
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 0.95
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0,
+          "success_smoothed": 0.95
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.8333333333333334,
+          "success_smoothed": 0.8333333333333334
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.75,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "GPT-5.2",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9807692307692307,
+          "success_smoothed": 0.9807692307692307
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0,
+          "success_smoothed": 0.9807692307692307
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.9807692307692307
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 0.9807692307692307
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 0.9807692307692307
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.9807692307692307
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-5.2",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.7714285714285715,
+          "success_smoothed": 0.7714285714285715
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 0.7714285714285715
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.7714285714285715
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.90625,
+          "success_smoothed": 0.7714285714285715
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0625,
+          "success_smoothed": 0.0625
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.25,
+          "success_smoothed": 0.0625
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.25,
+          "success_smoothed": 0.0625
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "GPT-5.2",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.96875,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.9318181818181818,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.47368421052631576,
+          "success_smoothed": 0.47368421052631576
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.5,
+          "success_smoothed": 0.47368421052631576
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.4642857142857143,
+          "success_smoothed": 0.4642857142857143
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "Gemini 3 Pro",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.875,
+          "success_smoothed": 0.875
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.75,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.46875,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Gemini 3 Pro",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.5416666666666666,
+          "success_smoothed": 0.5416666666666666
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.5,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "Gemini 3 Pro",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9743589743589743,
+          "success_smoothed": 0.9743589743589743
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0,
+          "success_smoothed": 0.9743589743589743
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.9743589743589743
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 0.9743589743589743
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 0.9743589743589743
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.9743589743589743
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Gemini 3 Pro",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.84375,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.96875,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.8571428571428571,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0625,
+          "success_smoothed": 0.0625
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "Gemini 3 Pro",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.8125,
+          "success_smoothed": 0.8125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.16666666666666666,
+          "success_smoothed": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.4166666666666667,
+          "success_smoothed": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.2,
+          "success_smoothed": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "human",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.5714285714285714,
+          "success_smoothed": 0.5714285714285714
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.3333333333333333,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.36363636363636365,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.5416666666666666,
+          "success_smoothed": 0.3333333333333333
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.2,
+          "success_smoothed": 0.2
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "human",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.7272727272727273,
+          "success_smoothed": 0.7272727272727273
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.7272727272727273
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.8115942028985508,
+          "success_smoothed": 0.7272727272727273
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.7931034482758621,
+          "success_smoothed": 0.7272727272727273
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.26666666666666666,
+          "success_smoothed": 0.26666666666666666
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "human",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9787234042553191,
+          "success_smoothed": 0.9787234042553191
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.88,
+          "success_smoothed": 0.88
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.88
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 0.88
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.88
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "human",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.6410256410256411,
+          "success_smoothed": 0.6410256410256411
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.5833333333333334,
+          "success_smoothed": 0.5833333333333334
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.42857142857142855,
+          "success_smoothed": 0.42857142857142855
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.6666666666666666,
+          "success_smoothed": 0.42857142857142855
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.2857142857142857,
+          "success_smoothed": 0.2857142857142857
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.2,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "human",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 0.9642857142857143,
+          "success_smoothed": 0.9642857142857143
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 0.9642857142857143
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 0.9642857142857143
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.625,
+          "success_smoothed": 0.625
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.7,
+          "success_smoothed": 0.625
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0,
+          "success_smoothed": 0.625
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.9565217391304348,
+          "success_smoothed": 0.625
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.6,
+          "success_smoothed": 0.6
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.43478260869565216,
+          "success_smoothed": 0.43478260869565216
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.4444444444444444,
+          "success_smoothed": 0.43478260869565216
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.45454545454545453,
+          "success_smoothed": 0.43478260869565216
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.2631578947368421,
+          "success_smoothed": 0.2631578947368421
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.4,
+          "success_smoothed": 0.2631578947368421
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "o1 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.35,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.125,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "o1 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.65,
+          "success_smoothed": 0.65
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.16666666666666666,
+          "success_smoothed": 0.16666666666666666
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "o1 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 0.9761904761904762,
+          "success_smoothed": 0.9761904761904762
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 0.9761904761904762
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9871794871794872,
+          "success_smoothed": 0.9761904761904762
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0,
+          "success_smoothed": 0.9761904761904762
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.9761904761904762
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 0.9761904761904762
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 0.9761904761904762
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "o1 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.9166666666666666,
+          "success_smoothed": 0.9166666666666666
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.8125,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.8125,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "o1 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.375,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.75,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.6818181818181818,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.8888888888888888,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.7142857142857143,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.6875,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.08333333333333333,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.1,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "o1-preview",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.6,
+          "success_smoothed": 0.6
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.1875,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.045871559633027525,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "o1-preview",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.875,
+          "success_smoothed": 0.875
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.875,
+          "success_smoothed": 0.875
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.65625,
+          "success_smoothed": 0.65625
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.5652173913043478,
+          "success_smoothed": 0.5652173913043478
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.5652173913043478
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.125,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.375,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.041666666666666664,
+          "success_smoothed": 0.041666666666666664
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "o1-preview",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.9583333333333334,
+          "success_smoothed": 0.9583333333333334
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.9375,
+          "success_smoothed": 0.9375
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.125,
+          "success_smoothed": 0.125
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "o1-preview",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.875,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.609375,
+          "success_smoothed": 0.609375
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.7142857142857143,
+          "success_smoothed": 0.609375
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.6296296296296297,
+          "success_smoothed": 0.609375
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.20833333333333334,
+          "success_smoothed": 0.20833333333333334
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "o1-preview",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.875,
+          "success_smoothed": 0.875
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.375,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.875,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.5568181818181818,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.8055555555555556,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.5535714285714286,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.3492063492063492,
+          "success_smoothed": 0.3492063492063492
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.02631578947368421,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
+      "model": "o3 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.875,
+          "success_smoothed": 0.875
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.47619047619047616,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.265625,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.08333333333333333,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "o3 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.625,
+          "success_smoothed": 0.625
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "o3 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9871794871794872,
+          "success_smoothed": 0.9871794871794872
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 1.0,
+          "success_smoothed": 0.9871794871794872
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.9871794871794872
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 0.9871794871794872
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 0.9871794871794872
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "o3 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.96875,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.7857142857142857,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0625,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "o3 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.75,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 0.9722222222222222,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.8571428571428571,
+          "success_smoothed": 0.75
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.6451612903225806,
+          "success_smoothed": 0.6451612903225806
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.1,
+          "success_smoothed": 0.1
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    }
+  ],
+  "domain_horizons": [
+    {
+      "domain": "cybersecurity",
+      "doubling_time_months": null,
+      "horizon_ci_high_minutes": 84.8634,
+      "horizon_ci_low_minutes": 1.0,
+      "horizon_p50_minutes": 53.2465,
+      "median_record_minutes": 25.186,
+      "models": 19,
+      "points": 4130
+    },
+    {
+      "domain": "data_analysis",
+      "doubling_time_months": null,
+      "horizon_ci_high_minutes": 96.3724,
+      "horizon_ci_low_minutes": 0.4707,
+      "horizon_p50_minutes": 62.1124,
+      "median_record_minutes": 7.571,
+      "models": 19,
+      "points": 6820
+    },
+    {
+      "domain": "ml_research",
+      "doubling_time_months": null,
+      "horizon_ci_high_minutes": 90.5097,
+      "horizon_ci_low_minutes": 64.0,
+      "horizon_p50_minutes": 67.2093,
+      "median_record_minutes": 480.0,
+      "models": 19,
+      "points": 2215
+    },
+    {
+      "domain": "reasoning",
+      "doubling_time_months": null,
+      "horizon_ci_high_minutes": 30.381,
+      "horizon_ci_low_minutes": 2.0,
+      "horizon_p50_minutes": 6.5076,
+      "median_record_minutes": 0.1577,
+      "models": 19,
+      "points": 5077
+    },
+    {
+      "domain": "software_engineering",
+      "doubling_time_months": null,
+      "horizon_ci_high_minutes": 311.1084,
+      "horizon_ci_low_minutes": 7.1272,
+      "horizon_p50_minutes": 183.9631,
+      "median_record_minutes": 14.737,
+      "models": 19,
+      "points": 2773
+    }
+  ],
+  "generated_at": "2026-02-13T17:41:41.282762+00:00",
+  "model_domain": [
+    {
+      "beta_proxy": -0.046239,
+      "domain": "cybersecurity",
+      "horizon_minutes": 1.0,
+      "model": "Claude 3 Opus (Inspect)",
+      "n_points": 201,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.092302,
+      "domain": "cybersecurity",
+      "horizon_minutes": 2.5198,
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "n_points": 181,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.054954,
+      "domain": "cybersecurity",
+      "horizon_minutes": 1.0,
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "n_points": 196,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.09302,
+      "domain": "cybersecurity",
+      "horizon_minutes": 2.8284,
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "n_points": 198,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.091496,
+      "domain": "cybersecurity",
+      "horizon_minutes": 2.639,
+      "model": "Claude 4 Opus (Inspect)",
+      "n_points": 312,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.097863,
+      "domain": "cybersecurity",
+      "horizon_minutes": 3.1748,
+      "model": "Claude 4.1 Opus (Inspect)",
+      "n_points": 200,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.088961,
+      "domain": "cybersecurity",
+      "horizon_minutes": 95.1036,
+      "model": "Claude Opus 4.5 (Inspect)",
+      "n_points": 200,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.087833,
+      "domain": "cybersecurity",
+      "horizon_minutes": 1.8661,
+      "model": "GPT-4 0314",
+      "n_points": 251,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.077588,
+      "domain": "cybersecurity",
+      "horizon_minutes": 1.4595,
+      "model": "GPT-4 1106 (Inspect)",
+      "n_points": 195,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.045152,
+      "domain": "cybersecurity",
+      "horizon_minutes": 1.0,
+      "model": "GPT-4 Turbo (Inspect)",
+      "n_points": 198,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.087734,
+      "domain": "cybersecurity",
+      "horizon_minutes": 2.0,
+      "model": "GPT-4o (Inspect)",
+      "n_points": 200,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.112691,
+      "domain": "cybersecurity",
+      "horizon_minutes": 80.6349,
+      "model": "GPT-5 (Inspect)",
+      "n_points": 203,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.11526,
+      "domain": "cybersecurity",
+      "horizon_minutes": 82.9977,
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "n_points": 300,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.098685,
+      "domain": "cybersecurity",
+      "horizon_minutes": 83.4518,
+      "model": "GPT-5.2",
+      "n_points": 211,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.102976,
+      "domain": "cybersecurity",
+      "horizon_minutes": 90.5097,
+      "model": "Gemini 3 Pro",
+      "n_points": 200,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.097571,
+      "domain": "cybersecurity",
+      "horizon_minutes": 23.2388,
+      "model": "human",
+      "n_points": 138,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.129293,
+      "domain": "cybersecurity",
+      "horizon_minutes": 64.0,
+      "model": "o1 (Inspect)",
+      "n_points": 200,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.120684,
+      "domain": "cybersecurity",
+      "horizon_minutes": 38.6589,
+      "model": "o1-preview",
+      "n_points": 347,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.124161,
+      "domain": "cybersecurity",
+      "horizon_minutes": 80.6349,
+      "model": "o3 (Inspect)",
+      "n_points": 199,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.068263,
+      "domain": "data_analysis",
+      "horizon_minutes": 0.3536,
+      "model": "Claude 3 Opus (Inspect)",
+      "n_points": 331,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073517,
+      "domain": "data_analysis",
+      "horizon_minutes": 6.2918,
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "n_points": 330,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.074745,
+      "domain": "data_analysis",
+      "horizon_minutes": 4.0,
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "n_points": 329,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.075989,
+      "domain": "data_analysis",
+      "horizon_minutes": 66.6634,
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "n_points": 331,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.070464,
+      "domain": "data_analysis",
+      "horizon_minutes": 77.4859,
+      "model": "Claude 4 Opus (Inspect)",
+      "n_points": 499,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.07463,
+      "domain": "data_analysis",
+      "horizon_minutes": 73.5167,
+      "model": "Claude 4.1 Opus (Inspect)",
+      "n_points": 332,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.05842,
+      "domain": "data_analysis",
+      "horizon_minutes": 90.5097,
+      "model": "Claude Opus 4.5 (Inspect)",
+      "n_points": 332,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073699,
+      "domain": "data_analysis",
+      "horizon_minutes": 0.3536,
+      "model": "GPT-4 0314",
+      "n_points": 463,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.071303,
+      "domain": "data_analysis",
+      "horizon_minutes": 0.5,
+      "model": "GPT-4 1106 (Inspect)",
+      "n_points": 332,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.077105,
+      "domain": "data_analysis",
+      "horizon_minutes": 0.5,
+      "model": "GPT-4 Turbo (Inspect)",
+      "n_points": 328,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.079349,
+      "domain": "data_analysis",
+      "horizon_minutes": 2.8284,
+      "model": "GPT-4o (Inspect)",
+      "n_points": 332,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.066635,
+      "domain": "data_analysis",
+      "horizon_minutes": 80.6349,
+      "model": "GPT-5 (Inspect)",
+      "n_points": 340,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.056074,
+      "domain": "data_analysis",
+      "horizon_minutes": 128.0,
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "n_points": 438,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.048291,
+      "domain": "data_analysis",
+      "horizon_minutes": 119.8231,
+      "model": "GPT-5.2",
+      "n_points": 327,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.060639,
+      "domain": "data_analysis",
+      "horizon_minutes": 89.5034,
+      "model": "Gemini 3 Pro",
+      "n_points": 332,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.047908,
+      "domain": "data_analysis",
+      "horizon_minutes": 48.6802,
+      "model": "human",
+      "n_points": 219,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.068316,
+      "domain": "data_analysis",
+      "horizon_minutes": 1.7411,
+      "model": "o1 (Inspect)",
+      "n_points": 332,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.074808,
+      "domain": "data_analysis",
+      "horizon_minutes": 1.6818,
+      "model": "o1-preview",
+      "n_points": 562,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.065955,
+      "domain": "data_analysis",
+      "horizon_minutes": 82.5586,
+      "model": "o3 (Inspect)",
+      "n_points": 331,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.025,
+      "domain": "ml_research",
+      "horizon_minutes": 64.0,
+      "model": "Claude 3 Opus (Inspect)",
+      "n_points": 103,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.010714,
+      "domain": "ml_research",
+      "horizon_minutes": 64.0,
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "n_points": 104,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.003621,
+      "domain": "ml_research",
+      "horizon_minutes": 64.0,
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "n_points": 97,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.159848,
+      "domain": "ml_research",
+      "horizon_minutes": 86.1376,
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "n_points": 109,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.17033,
+      "domain": "ml_research",
+      "horizon_minutes": 90.5097,
+      "model": "Claude 4 Opus (Inspect)",
+      "n_points": 135,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.163021,
+      "domain": "ml_research",
+      "horizon_minutes": 90.5097,
+      "model": "Claude 4.1 Opus (Inspect)",
+      "n_points": 108,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.078646,
+      "domain": "ml_research",
+      "horizon_minutes": 90.5097,
+      "model": "Claude Opus 4.5 (Inspect)",
+      "n_points": 108,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_research",
+      "horizon_minutes": 64.0,
+      "model": "GPT-4 0314",
+      "n_points": 153,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_research",
+      "horizon_minutes": 64.0,
+      "model": "GPT-4 1106 (Inspect)",
+      "n_points": 104,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": 0.0,
+      "domain": "ml_research",
+      "horizon_minutes": 64.0,
+      "model": "GPT-4 Turbo (Inspect)",
+      "n_points": 103,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.020312,
+      "domain": "ml_research",
+      "horizon_minutes": 64.0,
+      "model": "GPT-4o (Inspect)",
+      "n_points": 108,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.02641,
+      "domain": "ml_research",
+      "horizon_minutes": 80.6349,
+      "model": "GPT-5 (Inspect)",
+      "n_points": 109,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.050347,
+      "domain": "ml_research",
+      "horizon_minutes": 80.6349,
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "n_points": 162,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.099062,
+      "domain": "ml_research",
+      "horizon_minutes": 90.5097,
+      "model": "GPT-5.2",
+      "n_points": 111,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.103125,
+      "domain": "ml_research",
+      "horizon_minutes": 97.0059,
+      "model": "Gemini 3 Pro",
+      "n_points": 108,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.053452,
+      "domain": "ml_research",
+      "horizon_minutes": 78.7932,
+      "model": "human",
+      "n_points": 98,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.0875,
+      "domain": "ml_research",
+      "horizon_minutes": 64.0,
+      "model": "o1 (Inspect)",
+      "n_points": 108,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.115413,
+      "domain": "ml_research",
+      "horizon_minutes": 71.8376,
+      "model": "o1-preview",
+      "n_points": 178,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.131771,
+      "domain": "ml_research",
+      "horizon_minutes": 86.1376,
+      "model": "o3 (Inspect)",
+      "n_points": 109,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.07609,
+      "domain": "reasoning",
+      "horizon_minutes": 2.2974,
+      "model": "Claude 3 Opus (Inspect)",
+      "n_points": 270,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073361,
+      "domain": "reasoning",
+      "horizon_minutes": 13.9288,
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "n_points": 266,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073499,
+      "domain": "reasoning",
+      "horizon_minutes": 13.9288,
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "n_points": 266,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073138,
+      "domain": "reasoning",
+      "horizon_minutes": 22.6274,
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "n_points": 268,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073582,
+      "domain": "reasoning",
+      "horizon_minutes": 22.6274,
+      "model": "Claude 4 Opus (Inspect)",
+      "n_points": 266,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073726,
+      "domain": "reasoning",
+      "horizon_minutes": 22.6274,
+      "model": "Claude 4.1 Opus (Inspect)",
+      "n_points": 266,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073655,
+      "domain": "reasoning",
+      "horizon_minutes": 28.84,
+      "model": "Claude Opus 4.5 (Inspect)",
+      "n_points": 266,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.075863,
+      "domain": "reasoning",
+      "horizon_minutes": 2.0,
+      "model": "GPT-4 0314",
+      "n_points": 360,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.076008,
+      "domain": "reasoning",
+      "horizon_minutes": 1.0,
+      "model": "GPT-4 1106 (Inspect)",
+      "n_points": 260,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.077127,
+      "domain": "reasoning",
+      "horizon_minutes": 2.0,
+      "model": "GPT-4 Turbo (Inspect)",
+      "n_points": 266,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.076005,
+      "domain": "reasoning",
+      "horizon_minutes": 2.754,
+      "model": "GPT-4o (Inspect)",
+      "n_points": 266,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.074233,
+      "domain": "reasoning",
+      "horizon_minutes": 16.0,
+      "model": "GPT-5 (Inspect)",
+      "n_points": 266,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.074046,
+      "domain": "reasoning",
+      "horizon_minutes": 32.0,
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "n_points": 283,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073831,
+      "domain": "reasoning",
+      "horizon_minutes": 30.7215,
+      "model": "GPT-5.2",
+      "n_points": 188,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073759,
+      "domain": "reasoning",
+      "horizon_minutes": 30.2959,
+      "model": "Gemini 3 Pro",
+      "n_points": 266,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073049,
+      "domain": "reasoning",
+      "horizon_minutes": 24.0991,
+      "model": "human",
+      "n_points": 146,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.077233,
+      "domain": "reasoning",
+      "horizon_minutes": 2.8046,
+      "model": "o1 (Inspect)",
+      "n_points": 266,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.077272,
+      "domain": "reasoning",
+      "horizon_minutes": 2.9048,
+      "model": "o1-preview",
+      "n_points": 375,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.076707,
+      "domain": "reasoning",
+      "horizon_minutes": 3.1621,
+      "model": "o3 (Inspect)",
+      "n_points": 267,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.079725,
+      "domain": "software_engineering",
+      "horizon_minutes": 5.8789,
+      "model": "Claude 3 Opus (Inspect)",
+      "n_points": 133,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.0698,
+      "domain": "software_engineering",
+      "horizon_minutes": 64.0,
+      "model": "Claude 3.5 Sonnet (New) (Inspect)",
+      "n_points": 135,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.075062,
+      "domain": "software_engineering",
+      "horizon_minutes": 7.5114,
+      "model": "Claude 3.5 Sonnet (Old) (Inspect)",
+      "n_points": 117,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.056777,
+      "domain": "software_engineering",
+      "horizon_minutes": 189.7428,
+      "model": "Claude 3.7 Sonnet (Inspect)",
+      "n_points": 137,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.053424,
+      "domain": "software_engineering",
+      "horizon_minutes": 267.3341,
+      "model": "Claude 4 Opus (Inspect)",
+      "n_points": 156,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.05846,
+      "domain": "software_engineering",
+      "horizon_minutes": 270.0201,
+      "model": "Claude 4.1 Opus (Inspect)",
+      "n_points": 137,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.041441,
+      "domain": "software_engineering",
+      "horizon_minutes": 304.437,
+      "model": "Claude Opus 4.5 (Inspect)",
+      "n_points": 138,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.078732,
+      "domain": "software_engineering",
+      "horizon_minutes": 7.2888,
+      "model": "GPT-4 0314",
+      "n_points": 174,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.078157,
+      "domain": "software_engineering",
+      "horizon_minutes": 7.1272,
+      "model": "GPT-4 1106 (Inspect)",
+      "n_points": 138,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.081409,
+      "domain": "software_engineering",
+      "horizon_minutes": 7.1272,
+      "model": "GPT-4 Turbo (Inspect)",
+      "n_points": 137,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.062921,
+      "domain": "software_engineering",
+      "horizon_minutes": 128.0,
+      "model": "GPT-4o (Inspect)",
+      "n_points": 138,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.052332,
+      "domain": "software_engineering",
+      "horizon_minutes": 294.0668,
+      "model": "GPT-5 (Inspect)",
+      "n_points": 138,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.053273,
+      "domain": "software_engineering",
+      "horizon_minutes": 337.794,
+      "model": "GPT-5.1-Codex-Max (Inspect)",
+      "n_points": 186,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.039455,
+      "domain": "software_engineering",
+      "horizon_minutes": 337.794,
+      "model": "GPT-5.2",
+      "n_points": 124,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.048189,
+      "domain": "software_engineering",
+      "horizon_minutes": 270.0201,
+      "model": "Gemini 3 Pro",
+      "n_points": 138,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.058695,
+      "domain": "software_engineering",
+      "horizon_minutes": 180.1957,
+      "model": "human",
+      "n_points": 172,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.062271,
+      "domain": "software_engineering",
+      "horizon_minutes": 128.0,
+      "model": "o1 (Inspect)",
+      "n_points": 138,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073095,
+      "domain": "software_engineering",
+      "horizon_minutes": 35.4607,
+      "model": "o1-preview",
+      "n_points": 199,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.057467,
+      "domain": "software_engineering",
+      "horizon_minutes": 294.0668,
+      "model": "o3 (Inspect)",
+      "n_points": 138,
+      "release_date": ""
+    }
+  ]
+}
