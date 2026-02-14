@@ -40,6 +40,7 @@ const APP_STATE = {
   scroller: null,
   storyStep: 0,
   doublingMonths: 6,
+  userHasScrolled: false,
 };
 
 function labelDomain(domain) {
@@ -75,7 +76,25 @@ function formatDurationTick(minutes) {
     return `${value}h`;
   }
   const days = minutes / 1440;
+  if (days >= 7) {
+    return `${(days / 7).toFixed(1).replace(/\.0$/, "")}w`;
+  }
   return `${days.toFixed(1).replace(/\.0$/, "")}d`;
+}
+
+function buildLogTickValues(domainMin, domainMax, targetCount = 12) {
+  const minPow = Math.ceil(Math.log2(domainMin));
+  const maxPow = Math.floor(Math.log2(domainMax));
+  const span = Math.max(maxPow - minPow, 1);
+  const step = Math.max(Math.ceil(span / targetCount), 1);
+  const ticks = [];
+  for (let power = minPow; power <= maxPow; power += step) {
+    ticks.push(2 ** power);
+  }
+  if (!ticks.includes(2 ** maxPow)) {
+    ticks.push(2 ** maxPow);
+  }
+  return ticks;
 }
 
 function getContainerWidth(id, fallback) {
@@ -287,23 +306,7 @@ function renderStoryChart(data, step = 0) {
   const x = d3.scaleLog().domain([0.02, Math.max(maxCurveMinute || 600, 24 * 60)]).range([0, innerW]);
   const y = d3.scaleLinear().domain([0, 100]).range([innerH, 0]);
 
-  const tickValues = [
-    0.02,
-    0.05,
-    0.1,
-    0.2,
-    0.5,
-    1,
-    2,
-    5,
-    10,
-    20,
-    60,
-    120,
-    240,
-    480,
-    1440,
-  ].filter((value) => value >= x.domain()[0] && value <= x.domain()[1]);
+  const tickValues = buildLogTickValues(x.domain()[0], x.domain()[1]);
 
   g.append("g")
     .attr("class", "axis")
@@ -900,7 +903,7 @@ function setupStoryScroller(data) {
     renderStoryChart(data, stepIndex);
   }
 
-  activate(0);
+  activate(APP_STATE.storyStep);
 
   if (!window.scrollama || window.innerWidth < 900) {
     APP_STATE.scrollerReady = true;
@@ -912,6 +915,9 @@ function setupStoryScroller(data) {
   APP_STATE.scroller
     .setup({ step: ".step", offset: 0.5, progress: false })
     .onStepEnter(({ element }) => {
+      if (!APP_STATE.userHasScrolled && window.scrollY < 48) {
+        return;
+      }
       if (window.scrollY < Math.max(storyTop - 24, 0)) {
         return;
       }
@@ -949,6 +955,18 @@ async function init() {
     const data = await loadData();
     APP_STATE.data = data;
     APP_STATE.activeDomains = new Set();
+    APP_STATE.userHasScrolled = window.scrollY > 48;
+
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (window.scrollY > 48) {
+          APP_STATE.userHasScrolled = true;
+        }
+      },
+      { passive: true }
+    );
+
     renderAll();
     document.getElementById("generated-at").textContent = `Generated at: ${data.generated_at}`;
 
