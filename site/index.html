@@ -4,75 +4,150 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>METR Cross-Domain Time Horizon Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
-    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7" defer></script>
+    <script src="https://unpkg.com/scrollama" defer></script>
     <script src="./app.js" defer></script>
   </head>
   <body>
     <header class="hero">
-      <h1>METR Cross-Domain Time Horizon Tracker</h1>
-      <p>
-        Auto-updating horizon estimates by domain, built on top of public METR benchmark data.
+      <p class="kicker">Autonomy frontier tracker</p>
+      <h1>How long can AI actually work on its own?</h1>
+      <p class="lede">
+        Weekly-updated view of METR benchmark data. Scroll to follow the story, then drill into model
+        efficiency and cost tradeoffs.
       </p>
     </header>
 
-    <main class="grid">
-      <section class="card">
-        <h2>Domain Horizon Comparison</h2>
-        <div id="domain-chart" class="chart"></div>
-      </section>
-
-      <section class="card">
-        <h2>Model Trajectory by Domain</h2>
-        <label for="model-select">Model</label>
-        <select id="model-select"></select>
-        <div id="model-chart" class="chart"></div>
-      </section>
-
-      <section class="card full">
-        <h2>Forecast Explorer</h2>
-        <label for="doubling-slider">Assumed Doubling Time (months)</label>
-        <input id="doubling-slider" type="range" min="2" max="24" value="6" step="1" />
-        <p id="doubling-value">6 months</p>
-        <div id="forecast-chart" class="chart"></div>
-      </section>
-
-      <section class="card full">
-        <h2>Agent Token Efficiency (Option A)</h2>
-        <p>Lower is better: total tokens used per 1 hour of successful autonomous work.</p>
-        <div id="token-efficiency-chart" class="chart"></div>
-      </section>
-
-      <section class="card full">
-        <h2>Estimated Cost per Autonomous Hour (Option B)</h2>
-        <label for="split-select">Assumed token split (input/output)</label>
-        <select id="split-select"></select>
-        <p id="split-note"></p>
-        <div id="cost-efficiency-chart" class="chart"></div>
-      </section>
-
-      <section class="card full">
-        <h2>Records (sample)</h2>
-        <div class="table-wrap">
-          <table id="records-table">
-            <thead>
-              <tr>
-                <th>Benchmark</th>
-                <th>Domain</th>
-                <th>Model</th>
-                <th>Release Date</th>
-                <th>Human Minutes</th>
-                <th>Score</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
+    <main>
+      <section class="story-wrap" aria-label="Narrative overview">
+        <div class="story-copy">
+          <article class="step" data-step="0">
+            <h2>The frontier is uneven</h2>
+            <p>
+              AI autonomy has expanded fast, but not uniformly. Some domains already support long autonomous
+              runs; others still collapse quickly when task duration rises.
+            </p>
+          </article>
+          <article class="step" data-step="1">
+            <h2>Short tasks are mostly solved</h2>
+            <p>
+              At low task duration, success rates are high across domains. The first breakpoints appear only
+              when tasks move into sustained multi-minute work.
+            </p>
+          </article>
+          <article class="step" data-step="2">
+            <h2>Then performance decays sharply</h2>
+            <p>
+              The drop-off is nonlinear. A small increase in task length can produce a large success-rate loss,
+              especially in cybersecurity and reasoning.
+            </p>
+          </article>
+          <article class="step" data-step="3">
+            <h2>Domain matters more than averages</h2>
+            <p>
+              Looking only at aggregate model scores hides major differences. Domain-level curves reveal where
+              autonomy is robust vs fragile.
+            </p>
+          </article>
+          <article class="step" data-step="4">
+            <h2>The best models still cluster near a frontier</h2>
+            <p>
+              Top model-domain pairs form an efficiency frontier: longer horizons, but still bounded in many
+              real-world workflows.
+            </p>
+          </article>
         </div>
+
+        <div class="story-viz">
+          <section class="card card-hero">
+            <div class="card-head">
+              <h3>Model frontier bubble map</h3>
+              <p>Bubble size = evaluation points. X = horizon minutes (log scale), Y = success at 60 min.</p>
+            </div>
+            <div class="chip-row" id="domain-filter"></div>
+            <div id="bubble-chart" class="chart tall"></div>
+          </section>
+          <section class="card card-story">
+            <div class="card-head">
+              <h3>How success decays with task length</h3>
+              <p id="story-caption">Scroll steps on the left to highlight different views.</p>
+            </div>
+            <div id="story-chart" class="chart medium"></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="dashboard-grid" aria-label="Detailed charts">
+        <section class="card full">
+          <div class="card-head">
+            <h3>Domain autonomy horizons</h3>
+            <p>Lollipop view with confidence intervals for median 50% success horizon.</p>
+          </div>
+          <div id="domain-chart" class="chart medium"></div>
+        </section>
+
+        <section class="card full">
+          <div class="card-head">
+            <h3>Model x Domain leaderboard</h3>
+            <p>Heatmap of autonomy horizon (minutes). Higher intensity means longer sustained autonomy.</p>
+          </div>
+          <div id="heatmap-chart" class="chart tall"></div>
+        </section>
+
+        <section class="card">
+          <div class="card-head">
+            <h3>Option A: Token efficiency</h3>
+            <p>Lower is better: tokens needed for one successful autonomous hour.</p>
+          </div>
+          <div id="token-efficiency-chart" class="chart medium"></div>
+        </section>
+
+        <section class="card">
+          <div class="card-head">
+            <h3>Option B: Cost vs efficiency</h3>
+            <p>Bubble map with Pareto frontier. Lower-left region is best.</p>
+          </div>
+          <label for="split-select">Assumed token split (input/output)</label>
+          <select id="split-select"></select>
+          <p id="split-note"></p>
+          <div id="cost-efficiency-chart" class="chart medium"></div>
+        </section>
+
+        <section class="card full">
+          <div class="card-head">
+            <h3>Records sample</h3>
+            <p>First 150 processed rows for auditability and quick spot checks.</p>
+          </div>
+          <div class="table-wrap">
+            <table id="records-table">
+              <thead>
+                <tr>
+                  <th>Benchmark</th>
+                  <th>Domain</th>
+                  <th>Model</th>
+                  <th>Release Date</th>
+                  <th>Human Minutes</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </section>
       </section>
     </main>
 
     <footer>
       <p id="generated-at"></p>
     </footer>
+
+    <div id="tooltip" class="tooltip" role="status" aria-live="polite"></div>
   </body>
 </html>

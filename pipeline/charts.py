@@ -46,6 +46,8 @@ def _init_style() -> None:
             "axes.titlesize": 14,
             "axes.titleweight": "bold",
             "font.size": 11,
+            "font.family": "DejaVu Sans",
+            "figure.dpi": 180,
         }
     )
 
@@ -175,35 +177,51 @@ def chart_model_comparison(data: dict) -> Path:
     if not model_domain:
         return _empty_chart("model_comparison.png", "No model-domain data available")
 
-    # Pick top models by max horizon across any domain (exclude human)
+    rows = [r for r in model_domain if r["model"].lower() != "human"]
     model_max: dict[str, float] = {}
-    for row in model_domain:
-        if row["model"].lower() == "human":
-            continue
-        model_max[row["model"]] = max(model_max.get(row["model"], 0), row["horizon_minutes"])
+    for row in rows:
+        model_max[row["model"]] = max(model_max.get(row["model"], 0.0), float(row["horizon_minutes"]))
 
-    top_models = sorted(model_max, key=model_max.get, reverse=True)[:8]
+    top_models = sorted(model_max, key=model_max.get, reverse=True)[:12]
+    domains_seen = sorted({r["domain"] for r in rows})
 
-    domains_seen = sorted({r["domain"] for r in model_domain})
+    grid = []
+    for model in top_models:
+        values = []
+        for dom in domains_seen:
+            match = next((r for r in rows if r["model"] == model and r["domain"] == dom), None)
+            values.append(float(match["horizon_minutes"]) if match else 0.0)
+        grid.append(values)
 
-    fig, ax = plt.subplots(figsize=(11, 5.6))
-    bar_width = 0.8 / max(len(domains_seen), 1)
+    fig, ax = plt.subplots(figsize=(12.2, 6.2))
+    im = ax.imshow(grid, cmap="YlGnBu", aspect="auto")
 
-    for i, dom in enumerate(domains_seen):
-        vals = []
-        for model in top_models:
-            match = [r for r in model_domain if r["model"] == model and r["domain"] == dom]
-            vals.append(match[0]["horizon_minutes"] if match else 0)
-        positions = [j + i * bar_width for j in range(len(top_models))]
-        ax.bar(positions, vals, bar_width, label=_label(dom), color=_color(dom), edgecolor="white", linewidth=0.9)
+    ax.set_xticks(range(len(domains_seen)))
+    ax.set_xticklabels([_label(dom) for dom in domains_seen], rotation=20, ha="right", fontsize=10)
+    ax.set_yticks(range(len(top_models)))
+    ax.set_yticklabels([m.replace(" (Inspect)", "") for m in top_models], fontsize=9)
 
-    ax.set_xticks([j + bar_width * (len(domains_seen) - 1) / 2 for j in range(len(top_models))])
-    ax.set_xticklabels([m.replace(" (Inspect)", "") for m in top_models], rotation=30, ha="right", fontsize=9)
-    ax.set_ylabel("Time Horizon (minutes)", fontsize=12)
-    ax.set_title("Which Models Last Longest — and in Which Domains?",
-                 fontsize=15, fontweight="bold", pad=12)
-    ax.legend(loc="upper right", fontsize=10, framealpha=0.9)
-    _apply_style(fig, ax)
+    vmax = max((max(row) for row in grid), default=1.0)
+    for i, row in enumerate(grid):
+        for j, value in enumerate(row):
+            txt_color = "#102030" if value < vmax * 0.55 else "#f8fbff"
+            label = f"{value:.0f}" if value >= 1 else "<1"
+            ax.text(j, i, label, ha="center", va="center", color=txt_color, fontsize=8)
+
+    cbar = fig.colorbar(im, ax=ax, shrink=0.88, pad=0.02)
+    cbar.set_label("Horizon (minutes)", color="#233243")
+
+    ax.set_title(
+        "Where top models sustain autonomy best (model x domain heatmap)",
+        fontsize=15,
+        fontweight="bold",
+        pad=12,
+    )
+    ax.set_xlabel("Domain", fontsize=11)
+    ax.set_ylabel("Model", fontsize=11)
+    ax.grid(False)
+    for spine in ax.spines.values():
+        spine.set_visible(False)
 
     out = CHARTS_DIR / "model_comparison.png"
     fig.tight_layout()

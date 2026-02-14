@@ -36,11 +36,11 @@ Short tasks are easy. But as tasks stretch from seconds to minutes to hours, suc
 
 ### Which models last longest — and where?
 
-Not all models are created equal. Some excel at cybersecurity challenges but struggle with open-ended engineering. The chart below compares the top performers across domains.
+Not all models are created equal. Some excel at cybersecurity challenges but struggle with open-ended engineering. The chart below is a **model × domain heatmap** so differences are readable at a glance.
 
 ![Model comparison across domains](assets/charts/model_comparison.png)
 
-*Top 8 models ranked by their best single-domain horizon. ML Engineering horizons are capped at the benchmark ceiling (512 min) for most models — real capability may be higher.*
+*Top models ranked by best observed horizon. Darker cells indicate longer autonomy. Some ML/AI Research values approach benchmark ceilings, so true capability may be higher.*
 
 ---
 
@@ -70,13 +70,13 @@ These numbers move fast. A year ago, the best AI agents could barely handle task
 
 This tracker exists to make that trajectory visible, domain by domain, as it happens.
 
-**→ [Explore the interactive version](https://mathias3.github.io/METR-timehorizons-by-domain/)** for model-level drill-downs and adjustable forecasts.
+**→ [Explore the interactive version](https://mathias3.github.io/METR-timehorizons-by-domain/)** for scrollytelling narrative views, Gapminder-style bubble exploration, and richer model/domain drill-downs.
 
 ---
 
 ## How it works
 
-A Python pipeline ingests METR's public benchmark data weekly, fits time-horizon estimates per domain and model, and regenerates every chart and the interactive site. The whole process runs on GitHub Actions — zero cost, fully reproducible.
+A Python pipeline ingests METR's public benchmark data weekly, fits time-horizon estimates per domain and model, and regenerates every chart and the interactive site. The frontend uses D3-based custom charts optimized for readability and storytelling. The whole process runs on GitHub Actions — zero cost, fully reproducible.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add new benchmark sources or improve the analysis.
 
