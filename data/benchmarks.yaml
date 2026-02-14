@@ -1,10 +1,10 @@
 sources:
-  - id: metr_time_horizon_1_1_runs
+  - id: metr_time_horizon_latest_runs
     benchmark: metr_hcast
     source_repo: METR/eval-analysis-public
     source_type: jsonl
     parser: default_jsonl
-    url: https://raw.githubusercontent.com/METR/eval-analysis-public/main/reports/time-horizon-1-1/data/raw/runs.jsonl
+    url: https://raw.githubusercontent.com/METR/eval-analysis-public/main/reports/{LATEST_REPORT}/data/raw/runs.jsonl
 
   - id: metr_release_dates
     benchmark: metadata
