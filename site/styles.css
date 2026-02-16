@@ -69,6 +69,7 @@ main {
 .story-copy {
   display: grid;
   gap: 0.75rem;
+  padding-bottom: 0.25rem;
 }
 
 .step {
@@ -80,6 +81,11 @@ main {
   opacity: 0.46;
   transform: translateX(0);
   transition: opacity 220ms ease, transform 220ms ease, border-color 220ms ease;
+  min-height: clamp(210px, 58vh, 520px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scroll-margin-top: 24vh;
 }
 
 .step.is-active {
@@ -275,6 +281,15 @@ footer {
 @media (max-width: 1080px) {
   .story-wrap {
     grid-template-columns: 1fr;
+  }
+
+  .story-copy {
+    padding-bottom: 0;
+  }
+
+  .step {
+    min-height: auto;
+    display: block;
   }
 
   .story-viz {
