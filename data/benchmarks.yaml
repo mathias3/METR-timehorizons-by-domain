@@ -13,6 +13,13 @@ sources:
     parser: release_dates_yaml
     url: https://raw.githubusercontent.com/METR/eval-analysis-public/main/data/external/release_dates.yaml
 
+  - id: metr_benchmark_results_1_1
+    benchmark: metr_headline
+    source_repo: metr.org
+    source_type: yaml
+    parser: benchmark_results_yaml
+    url: https://metr.org/assets/benchmark_results_1_1.yaml
+
   - id: metr_cross_domain_readme
     benchmark: cross_domain_metadata
     source_repo: METR/cross-domain-horizon

@@ -112,6 +112,51 @@ def chart_domain_horizons(data: dict) -> Path:
     return out
 
 
+def chart_metr_headline(data: dict) -> Path:
+    rows = [
+        row
+        for row in (data.get("metr_headline", {}).get("models") or [])
+        if isinstance(row.get("p50_hours"), (int, float))
+    ]
+    if not rows:
+        return _empty_chart("metr_headline_models.png", "No METR headline model feed available")
+
+    rows = sorted(rows, key=lambda r: r["p50_hours"], reverse=True)[:12]
+    models = [str(row["model"]).replace(" (Inspect)", "") for row in rows]
+    p50_vals = [float(row["p50_hours"]) for row in rows]
+    p80_vals = [float(row["p80_hours"]) if isinstance(row.get("p80_hours"), (int, float)) else None for row in rows]
+    colors = ["#1f7a68" if row.get("is_sota") else "#4f78b8" for row in rows]
+
+    fig, ax = plt.subplots(figsize=(10.8, 5.8))
+    y = list(range(len(models)))
+
+    ax.hlines(y, [0] * len(y), p50_vals, color="#95b2cc", linewidth=2.6)
+    ax.scatter(p50_vals, y, s=70, c=colors, edgecolors="white", linewidths=1.0, zorder=3, label="P50 horizon")
+
+    p80_x = [v for v in p80_vals if isinstance(v, (int, float))]
+    p80_y = [idx for idx, v in enumerate(p80_vals) if isinstance(v, (int, float))]
+    if p80_x:
+        ax.scatter(p80_x, p80_y, s=38, c="#cf5f55", edgecolors="white", linewidths=0.8, zorder=3, label="P80 horizon")
+
+    for idx, val in enumerate(p50_vals):
+        ax.text(val * 1.01, idx, f"{val:.1f}h", va="center", fontsize=9, color="#233243")
+
+    ax.set_yticks(y)
+    ax.set_yticklabels(models, fontsize=9)
+    ax.invert_yaxis()
+    ax.set_xlabel("Horizon length (hours)", fontsize=12)
+    ax.set_title("METR headline model horizons (official feed)", fontsize=15, fontweight="bold", pad=12)
+    ax.legend(loc="lower right", framealpha=0.9, fontsize=9)
+    _apply_style(fig, ax)
+    ax.set_xlim(0, max(p50_vals) * 1.2)
+
+    out = CHARTS_DIR / "metr_headline_models.png"
+    fig.tight_layout()
+    fig.savefig(out, dpi=180, bbox_inches="tight")
+    plt.close(fig)
+    return out
+
+
 # ── Chart 2: Success curves per domain ────────────────────────────────────────
 
 def chart_success_curves(data: dict) -> Path:
@@ -337,10 +382,12 @@ def main() -> None:
     print(f"  ✓ {p2}")
     p3 = chart_model_comparison(data)
     print(f"  ✓ {p3}")
-    p4 = chart_token_efficiency(data)
+    p4 = chart_metr_headline(data)
     print(f"  ✓ {p4}")
-    p5 = chart_cost_efficiency(data)
+    p5 = chart_token_efficiency(data)
     print(f"  ✓ {p5}")
+    p6 = chart_cost_efficiency(data)
+    print(f"  ✓ {p6}")
     print("Charts generated.")
 
 

@@ -678,6 +678,109 @@ function renderHeatmap(data) {
     .style("text-anchor", "end");
 }
 
+function renderHeadlineChart(data) {
+  const rows = (data.metr_headline?.models || [])
+    .filter((row) => Number.isFinite(row.p50_hours))
+    .sort((a, b) => b.p50_hours - a.p50_hours)
+    .slice(0, 12);
+
+  const width = getContainerWidth("headline-chart", 980);
+  const height = 440;
+  const margin = { top: 24, right: 24, bottom: 44, left: 270 };
+  const innerW = width - margin.left - margin.right;
+  const innerH = height - margin.top - margin.bottom;
+  const svg = initSvg("headline-chart", width, height);
+  const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+  if (!rows.length) {
+    g.append("text")
+      .attr("x", innerW / 2)
+      .attr("y", innerH / 2)
+      .attr("text-anchor", "middle")
+      .attr("fill", "#60788f")
+      .text("No METR headline model feed available yet.");
+    return;
+  }
+
+  const maxHours =
+    d3.max(rows, (row) => Math.max(row.p50_hours || 0, Number.isFinite(row.p80_hours) ? row.p80_hours : 0)) || 1;
+  const x = d3.scaleLinear().domain([0, maxHours * 1.1]).range([0, innerW]);
+  const y = d3
+    .scaleBand()
+    .domain(rows.map((row) => row.model))
+    .range([0, innerH])
+    .padding(0.32);
+
+  g.append("g").attr("class", "axis").call(d3.axisLeft(y).tickFormat((name) => shortModelName(name).slice(0, 30)));
+  g.append("g").attr("class", "axis").attr("transform", `translate(0,${innerH})`).call(d3.axisBottom(x).ticks(7));
+
+  g.append("text")
+    .attr("x", innerW / 2)
+    .attr("y", innerH + 36)
+    .attr("text-anchor", "middle")
+    .attr("fill", "#1c344a")
+    .text("Hours at target reliability (higher is better)");
+
+  g.selectAll("line.headline-p50")
+    .data(rows)
+    .join("line")
+    .attr("class", "headline-p50")
+    .attr("x1", 0)
+    .attr("x2", (row) => x(row.p50_hours))
+    .attr("y1", (row) => y(row.model) + y.bandwidth() / 2)
+    .attr("y2", (row) => y(row.model) + y.bandwidth() / 2)
+    .attr("stroke", "#82a6c7")
+    .attr("stroke-width", 3);
+
+  g.selectAll("circle.headline-p50")
+    .data(rows)
+    .join("circle")
+    .attr("class", "headline-p50")
+    .attr("cx", (row) => x(row.p50_hours))
+    .attr("cy", (row) => y(row.model) + y.bandwidth() / 2)
+    .attr("r", 6.5)
+    .attr("fill", (row) => (row.is_sota ? "#1f7a68" : "#4f78b8"))
+    .attr("stroke", "#ffffff")
+    .attr("stroke-width", 1.1)
+    .on("mouseenter", (event, row) => {
+      showTooltip(
+        event,
+        `<strong>${shortModelName(row.model)}</strong><br>P50: ${row.p50_hours.toFixed(1)} h<br>P80: ${
+          Number.isFinite(row.p80_hours) ? `${row.p80_hours.toFixed(1)} h` : "n/a"
+        }<br>Release: ${row.release_date || "n/a"}${row.is_sota ? "<br>METR flag: SOTA" : ""}`
+      );
+    })
+    .on("mousemove", moveTooltip)
+    .on("mouseleave", hideTooltip);
+
+  g.selectAll("circle.headline-p80")
+    .data(rows.filter((row) => Number.isFinite(row.p80_hours)))
+    .join("circle")
+    .attr("class", "headline-p80")
+    .attr("cx", (row) => x(row.p80_hours))
+    .attr("cy", (row) => y(row.model) + y.bandwidth() / 2)
+    .attr("r", 4.2)
+    .attr("fill", "#cf5f55")
+    .attr("stroke", "#ffffff")
+    .attr("stroke-width", 1);
+
+  const legend = g.append("g").attr("transform", `translate(${innerW - 190},8)`);
+  legend
+    .append("circle")
+    .attr("cx", 0)
+    .attr("cy", 0)
+    .attr("r", 6)
+    .attr("fill", "#4f78b8");
+  legend.append("text").attr("x", 12).attr("y", 4).style("font-size", "11px").attr("fill", "#25394d").text("P50 horizon");
+  legend
+    .append("circle")
+    .attr("cx", 0)
+    .attr("cy", 18)
+    .attr("r", 4)
+    .attr("fill", "#cf5f55");
+  legend.append("text").attr("x", 12).attr("y", 22).style("font-size", "11px").attr("fill", "#25394d").text("P80 horizon");
+}
+
 function renderTokenDotPlot(data) {
   const rows = (data.agent_economics?.models || [])
     .filter((m) => Number.isFinite(m.tokens_per_success_hour))
@@ -942,6 +1045,7 @@ function renderAll() {
   renderDomainLollipop(data);
   setupDoublingSlider(data);
   renderHeatmap(data);
+  renderHeadlineChart(data);
   renderTokenDotPlot(data);
   setupSplitSelector(data);
   renderCostScatter(data, APP_STATE.splitKey);

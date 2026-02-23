@@ -44,6 +44,16 @@ Not all models are created equal. Some excel at cybersecurity challenges but str
 
 ---
 
+### METR headline model horizons (official feed)
+
+To avoid missing newly published model evaluations, we also ingest METR's official `benchmark_results_1_1.yaml` feed and plot model-level horizons directly.
+
+![METR headline model horizons](assets/charts/metr_headline_models.png)
+
+*This chart shows METR-reported model-level P50 and P80 horizons (hours). It complements — and does not replace — our domain-level charts built from `runs.jsonl`, which can lag behind headline updates for newly evaluated models.*
+
+---
+
 ### Option A: Token efficiency (assumption-free)
 
 How many tokens does a model consume to sustain one successful hour of autonomous work?

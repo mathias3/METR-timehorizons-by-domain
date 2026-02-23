@@ -2,8 +2,11 @@ from __future__ import annotations
 
 import json
 from datetime import datetime, timezone
+from pathlib import Path
 
-from pipeline.common import PROCESSED_DIR, SITE_DIR, ensure_dirs, read_json, write_json
+import yaml
+
+from pipeline.common import PROCESSED_DIR, SITE_DIR, SOURCES_DIR, ensure_dirs, read_json, write_json
 
 
 # Approximate list prices ($ per 1M tokens) used only for scenario estimates.
@@ -57,6 +60,79 @@ SPLIT_RATIONALE_SOURCES = [
     "https://platform.openai.com/docs/guides/prompt-caching",
     "https://developers.openai.com/cookbook/examples/prompt_caching101/",
 ]
+
+
+def _headline_model_label(model_key: str) -> str:
+    custom = {
+        "claude_opus_4_6_inspect": "Claude Opus 4.6 (Inspect)",
+        "claude_opus_4_5_inspect": "Claude Opus 4.5 (Inspect)",
+        "gpt_5_3_codex": "GPT-5.3-Codex",
+        "gpt_5_2": "GPT-5.2",
+        "gpt_5_1_codex_max_inspect": "GPT-5.1 Codex Max (Inspect)",
+        "gemini_3_pro": "Gemini 3 Pro",
+        "claude_4_1_opus_inspect": "Claude 4.1 Opus (Inspect)",
+        "claude_4_opus_inspect": "Claude 4 Opus (Inspect)",
+    }
+    if model_key in custom:
+        return custom[model_key]
+    return model_key.replace("_", " ")
+
+
+def _build_metr_headline() -> dict:
+    index_path = SOURCES_DIR / "index.json"
+    if not index_path.exists():
+        return {"models": []}
+
+    index = read_json(index_path)
+    source = next(
+        (
+            item
+            for item in index.get("items", [])
+            if item.get("parser") == "benchmark_results_yaml" and item.get("status") == "ok"
+        ),
+        None,
+    )
+    if not source:
+        return {"models": []}
+
+    source_path = Path(str(source.get("path") or ""))
+    if not source_path.exists():
+        return {"models": []}
+
+    content = yaml.safe_load(source_path.read_text())
+    if not isinstance(content, dict):
+        return {"models": []}
+
+    result_rows = []
+    for model_key, item in (content.get("results") or {}).items():
+        if not isinstance(item, dict):
+            continue
+        metrics = item.get("metrics") or {}
+        p50 = (metrics.get("p50_horizon_length") or {}).get("estimate")
+        p80 = (metrics.get("p80_horizon_length") or {}).get("estimate")
+        if not isinstance(p50, (int, float)):
+            continue
+
+        result_rows.append(
+            {
+                "model_key": str(model_key),
+                "model": _headline_model_label(str(model_key)),
+                "release_date": str(item.get("release_date") or ""),
+                "is_sota": bool((metrics.get("is_sota") is True)),
+                "p50_hours": float(p50),
+                "p80_hours": float(p80) if isinstance(p80, (int, float)) else None,
+                "p50_minutes": float(p50) * 60.0,
+                "p80_minutes": float(p80) * 60.0 if isinstance(p80, (int, float)) else None,
+            }
+        )
+
+    result_rows.sort(key=lambda row: row["p50_hours"], reverse=True)
+    return {
+        "benchmark_name": str(content.get("benchmark_name") or ""),
+        "source_url": str(source.get("url") or ""),
+        "latest_metr_report": str(index.get("latest_metr_report") or ""),
+        "models": result_rows,
+    }
 
 
 def _load_jsonl(path) -> list[dict]:
@@ -193,6 +269,7 @@ def main() -> None:
         "domain_horizons": fits.get("domain_horizons", []),
         "model_domain": fits.get("model_domain", []),
         "curves": fits.get("curves", []),
+        "metr_headline": _build_metr_headline(),
         "table_rows": sample_records,
         "agent_economics": _build_agent_economics(unified_rows),
         "meta": {

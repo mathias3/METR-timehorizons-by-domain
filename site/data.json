@@ -7564,7 +7564,7 @@
       "points": 2773
     }
   ],
-  "generated_at": "2026-02-16T06:56:34.021502+00:00",
+  "generated_at": "2026-02-23T19:16:49.478575+00:00",
   "meta": {
     "domains": [
       "cybersecurity",
@@ -7574,6 +7574,243 @@
       "software_engineering"
     ],
     "rows": 500
+  },
+  "metr_headline": {
+    "benchmark_name": "METR-Horizon-v1.1",
+    "latest_metr_report": "time-horizon-1-1",
+    "models": [
+      {
+        "is_sota": true,
+        "model": "Claude Opus 4.6 (Inspect)",
+        "model_key": "claude_opus_4_6_inspect",
+        "p50_hours": 870.027186,
+        "p50_minutes": 52201.631160000004,
+        "p80_hours": 62.851039,
+        "p80_minutes": 3771.06234,
+        "release_date": "2026-02-05"
+      },
+      {
+        "is_sota": true,
+        "model": "GPT-5.2",
+        "model_key": "gpt_5_2",
+        "p50_hours": 394.383957,
+        "p50_minutes": 23663.03742,
+        "p80_hours": 55.134067,
+        "p80_minutes": 3308.0440200000003,
+        "release_date": "2025-12-11"
+      },
+      {
+        "is_sota": false,
+        "model": "GPT-5.3-Codex",
+        "model_key": "gpt_5_3_codex",
+        "p50_hours": 389.977021,
+        "p50_minutes": 23398.62126,
+        "p80_hours": 46.520581,
+        "p80_minutes": 2791.23486,
+        "release_date": "2026-02-05"
+      },
+      {
+        "is_sota": true,
+        "model": "Claude Opus 4.5 (Inspect)",
+        "model_key": "claude_opus_4_5_inspect",
+        "p50_hours": 320.422486,
+        "p50_minutes": 19225.349159999998,
+        "p80_hours": 41.551151,
+        "p80_minutes": 2493.06906,
+        "release_date": "2025-11-24"
+      },
+      {
+        "is_sota": true,
+        "model": "Gemini 3 Pro",
+        "model_key": "gemini_3_pro",
+        "p50_hours": 236.654674,
+        "p50_minutes": 14199.28044,
+        "p80_hours": 43.435618,
+        "p80_minutes": 2606.13708,
+        "release_date": "2025-11-18"
+      },
+      {
+        "is_sota": false,
+        "model": "GPT-5.1 Codex Max (Inspect)",
+        "model_key": "gpt_5_1_codex_max_inspect",
+        "p50_hours": 236.548491,
+        "p50_minutes": 14192.90946,
+        "p80_hours": 40.998357,
+        "p80_minutes": 2459.90142,
+        "release_date": "2025-11-19"
+      },
+      {
+        "is_sota": true,
+        "model": "gpt 5 2025 08 07 inspect",
+        "model_key": "gpt_5_2025_08_07_inspect",
+        "p50_hours": 213.954459,
+        "p50_minutes": 12837.26754,
+        "p80_hours": 31.643807,
+        "p80_minutes": 1898.62842,
+        "release_date": "2025-08-07"
+      },
+      {
+        "is_sota": true,
+        "model": "o3 inspect",
+        "model_key": "o3_inspect",
+        "p50_hours": 120.730463,
+        "p50_minutes": 7243.82778,
+        "p80_hours": 23.909039,
+        "p80_minutes": 1434.54234,
+        "release_date": "2025-04-16"
+      },
+      {
+        "is_sota": false,
+        "model": "Claude 4 Opus (Inspect)",
+        "model_key": "claude_4_opus_inspect",
+        "p50_hours": 101.182643,
+        "p50_minutes": 6070.9585799999995,
+        "p80_hours": 16.642056,
+        "p80_minutes": 998.52336,
+        "release_date": "2025-05-22"
+      },
+      {
+        "is_sota": false,
+        "model": "Claude 4.1 Opus (Inspect)",
+        "model_key": "claude_4_1_opus_inspect",
+        "p50_hours": 100.84381,
+        "p50_minutes": 6050.6286,
+        "p80_hours": 18.851872,
+        "p80_minutes": 1131.11232,
+        "release_date": "2025-08-05"
+      },
+      {
+        "is_sota": true,
+        "model": "claude 3 7 sonnet inspect",
+        "model_key": "claude_3_7_sonnet_inspect",
+        "p50_hours": 59.763762,
+        "p50_minutes": 3585.82572,
+        "p80_hours": 9.792108,
+        "p80_minutes": 587.52648,
+        "release_date": "2025-02-24"
+      },
+      {
+        "is_sota": true,
+        "model": "o1 inspect",
+        "model_key": "o1_inspect",
+        "p50_hours": 37.937543,
+        "p50_minutes": 2276.25258,
+        "p80_hours": 5.720742,
+        "p80_minutes": 343.24452,
+        "release_date": "2024-12-05"
+      },
+      {
+        "is_sota": true,
+        "model": "claude 3 5 sonnet 20241022 inspect",
+        "model_key": "claude_3_5_sonnet_20241022_inspect",
+        "p50_hours": 19.776241,
+        "p50_minutes": 1186.5744599999998,
+        "p80_hours": 2.110812,
+        "p80_minutes": 126.64872000000001,
+        "release_date": "2024-10-22"
+      },
+      {
+        "is_sota": true,
+        "model": "o1 preview",
+        "model_key": "o1_preview",
+        "p50_hours": 19.395096,
+        "p50_minutes": 1163.7057599999998,
+        "p80_hours": 3.407526,
+        "p80_minutes": 204.45156,
+        "release_date": "2024-09-12"
+      },
+      {
+        "is_sota": true,
+        "model": "claude 3 5 sonnet 20240620 inspect",
+        "model_key": "claude_3_5_sonnet_20240620_inspect",
+        "p50_hours": 10.771603,
+        "p50_minutes": 646.29618,
+        "p80_hours": 1.319663,
+        "p80_minutes": 79.17978000000001,
+        "release_date": "2024-06-20"
+      },
+      {
+        "is_sota": true,
+        "model": "gpt 4o inspect",
+        "model_key": "gpt_4o_inspect",
+        "p50_hours": 6.404471,
+        "p50_minutes": 384.26826,
+        "p80_hours": 0.947734,
+        "p80_minutes": 56.864039999999996,
+        "release_date": "2024-05-13"
+      },
+      {
+        "is_sota": true,
+        "model": "gpt 4 1106 inspect",
+        "model_key": "gpt_4_1106_inspect",
+        "p50_hours": 3.609578,
+        "p50_minutes": 216.57468,
+        "p80_hours": 0.563384,
+        "p80_minutes": 33.80304,
+        "release_date": "2023-11-06"
+      },
+      {
+        "is_sota": false,
+        "model": "claude 3 opus inspect",
+        "model_key": "claude_3_opus_inspect",
+        "p50_hours": 3.575399,
+        "p50_minutes": 214.52394,
+        "p80_hours": 0.476819,
+        "p80_minutes": 28.60914,
+        "release_date": "2024-03-04"
+      },
+      {
+        "is_sota": true,
+        "model": "gpt 4",
+        "model_key": "gpt_4",
+        "p50_hours": 3.524514,
+        "p50_minutes": 211.47084,
+        "p80_hours": 0.621658,
+        "p80_minutes": 37.29948,
+        "release_date": "2023-03-14"
+      },
+      {
+        "is_sota": false,
+        "model": "gpt 4 turbo inspect",
+        "model_key": "gpt_4_turbo_inspect",
+        "p50_hours": 3.225159,
+        "p50_minutes": 193.50954000000002,
+        "p80_hours": 0.617128,
+        "p80_minutes": 37.027680000000004,
+        "release_date": "2024-04-09"
+      },
+      {
+        "is_sota": true,
+        "model": "gpt 3 5 turbo instruct",
+        "model_key": "gpt_3_5_turbo_instruct",
+        "p50_hours": 0.604245,
+        "p50_minutes": 36.2547,
+        "p80_hours": 0.1731,
+        "p80_minutes": 10.386000000000001,
+        "release_date": "2022-03-15"
+      },
+      {
+        "is_sota": true,
+        "model": "davinci 002",
+        "model_key": "davinci_002",
+        "p50_hours": 0.148793,
+        "p50_minutes": 8.92758,
+        "p80_hours": 0.034139,
+        "p80_minutes": 2.04834,
+        "release_date": "2020-05-28"
+      },
+      {
+        "is_sota": true,
+        "model": "gpt2",
+        "model_key": "gpt2",
+        "p50_hours": 0.039762,
+        "p50_minutes": 2.38572,
+        "p80_hours": 0.005652,
+        "p80_minutes": 0.33912,
+        "release_date": "2019-02-14"
+      }
+    ],
+    "source_url": "https://metr.org/assets/benchmark_results_1_1.yaml"
   },
   "model_domain": [
     {
