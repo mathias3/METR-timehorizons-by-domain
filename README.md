@@ -54,6 +54,18 @@ To avoid missing newly published model evaluations, we also ingest METR's offici
 
 ---
 
+### Data sources & licensing
+
+- **Software**: Everything in this repository (code + static assets we generate) is MIT-licensed. See [`LICENSE`](./LICENSE).
+- **Data**: All autonomy metrics are derived from public METR releases:
+  1. `runs.jsonl` + supporting metadata from [`METR/eval-analysis-public`](https://github.com/METR/eval-analysis-public)
+  2. Headline YAML feed at [metr.org/assets/benchmark_results_1_1.yaml](https://metr.org/assets/benchmark_results_1_1.yaml)
+  3. Cross-domain README excerpts from [`METR/cross-domain-horizon`](https://github.com/METR/cross-domain-horizon)
+
+  These datasets remain subject to METR's original terms. Please cite the METR Time Horizon methodology ("Measuring AI Ability to Complete Long Tasks", arXiv:2503.14499) when referencing derived visualizations. We are coordinating with METR to obtain an explicit license statement and will update this section once it is published upstream.
+
+---
+
 ### Option A: Token efficiency (assumption-free)
 
 How many tokens does a model consume to sustain one successful hour of autonomous work?
