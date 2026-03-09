@@ -362,6 +362,26 @@
         "tokens_per_success_minute": 5541.364075329512
       },
       {
+        "assumed_price_usd_per_1m": null,
+        "domains": [
+          "cybersecurity",
+          "data_analysis",
+          "ml_research",
+          "reasoning",
+          "software_engineering"
+        ],
+        "empirical_blended_usd_per_1m_from_runs": null,
+        "estimated_cost_scenarios": {},
+        "model": "Claude Opus 4.6 (Inspect)",
+        "runs_success": 1164,
+        "runs_total": 1391,
+        "runs_with_tokens": 1391,
+        "tokens_per_hour": 560779.2266530781,
+        "tokens_per_minute": 9346.320444217969,
+        "tokens_per_success_hour": 417709.9207501485,
+        "tokens_per_success_minute": 6961.832012502475
+      },
+      {
         "assumed_price_usd_per_1m": {
           "input": 10.0,
           "output": 30.0
@@ -396,6 +416,26 @@
         "tokens_per_minute": 2602.218769895314,
         "tokens_per_success_hour": 517735.0321825434,
         "tokens_per_success_minute": 8628.91720304239
+      },
+      {
+        "assumed_price_usd_per_1m": null,
+        "domains": [
+          "cybersecurity",
+          "data_analysis",
+          "ml_research",
+          "reasoning",
+          "software_engineering"
+        ],
+        "empirical_blended_usd_per_1m_from_runs": null,
+        "estimated_cost_scenarios": {},
+        "model": "GPT-5.3-Codex",
+        "runs_success": 1286,
+        "runs_total": 1602,
+        "runs_with_tokens": 1602,
+        "tokens_per_hour": 823493.0316105123,
+        "tokens_per_minute": 13724.883860175205,
+        "tokens_per_success_hour": 583738.1158642302,
+        "tokens_per_success_minute": 9728.96859773717
       },
       {
         "assumed_price_usd_per_1m": {
@@ -3205,6 +3245,366 @@
     },
     {
       "domain": "ml_research",
+      "model": "Claude Opus 4.6 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.8333333333333334,
+          "success_smoothed": 0.8333333333333334
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.5,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.7647058823529411,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.7522935779816514,
+          "success_smoothed": 0.5
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.2777777777777778,
+          "success_smoothed": 0.2777777777777778
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "Claude Opus 4.6 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.8333333333333334,
+          "success_smoothed": 0.8333333333333334
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.07692307692307693,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 1.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "Claude Opus 4.6 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9871794871794872,
+          "success_smoothed": 0.9871794871794872
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.8809523809523809,
+          "success_smoothed": 0.8809523809523809
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.8809523809523809
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.7777777777777778,
+          "success_smoothed": 0.7777777777777778
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.9166666666666666,
+          "success_smoothed": 0.7777777777777778
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.7777777777777778
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "Claude Opus 4.6 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.7446808510638298,
+          "success_smoothed": 0.7446808510638298
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 0.7446808510638298
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.7446808510638298
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.8809523809523809,
+          "success_smoothed": 0.7446808510638298
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.52,
+          "success_smoothed": 0.52
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.42857142857142855,
+          "success_smoothed": 0.42857142857142855
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.4,
+          "success_smoothed": 0.4
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "Claude Opus 4.6 (Inspect)",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.6666666666666666,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.9545454545454546,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.9523809523809523,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.875,
+          "success_smoothed": 0.6666666666666666
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.4444444444444444,
+          "success_smoothed": 0.4444444444444444
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.6111111111111112,
+          "success_smoothed": 0.4444444444444444
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.43333333333333335,
+          "success_smoothed": 0.43333333333333335
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.3333333333333333,
+          "success_smoothed": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
       "model": "GPT-4 0314",
       "points": [
         {
@@ -5725,6 +6125,366 @@
     },
     {
       "domain": "ml_research",
+      "model": "GPT-5.3-Codex",
+      "points": [
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.375,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.8823529411764706,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.4846153846153846,
+          "success_smoothed": 0.375
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.14814814814814814,
+          "success_smoothed": 0.14814814814814814
+        }
+      ]
+    },
+    {
+      "domain": "software_engineering",
+      "model": "GPT-5.3-Codex",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.8333333333333334,
+          "success_smoothed": 0.8333333333333334
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 11.0,
+          "minutes": 2048.0,
+          "success": 0.5,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "reasoning",
+      "model": "GPT-5.3-Codex",
+      "points": [
+        {
+          "log2_minutes": -6.0,
+          "minutes": 0.015625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 0.9871794871794872,
+          "success_smoothed": 0.9871794871794872
+        },
+        {
+          "log2_minutes": -2.0,
+          "minutes": 0.25,
+          "success": 0.9761904761904762,
+          "success_smoothed": 0.9761904761904762
+        },
+        {
+          "log2_minutes": -1.0,
+          "minutes": 0.5,
+          "success": 1.0,
+          "success_smoothed": 0.9761904761904762
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 0.8333333333333334,
+          "success_smoothed": 0.8333333333333334
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 0.5833333333333334,
+          "success_smoothed": 0.5833333333333334
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 0.5833333333333334
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.0,
+          "success_smoothed": 0.0
+        }
+      ]
+    },
+    {
+      "domain": "cybersecurity",
+      "model": "GPT-5.3-Codex",
+      "points": [
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.7931034482758621,
+          "success_smoothed": 0.7931034482758621
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 0.7931034482758621
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 1.0,
+          "success_smoothed": 0.7931034482758621
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.9074074074074074,
+          "success_smoothed": 0.7931034482758621
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.4642857142857143,
+          "success_smoothed": 0.4642857142857143
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.2972972972972973,
+          "success_smoothed": 0.2972972972972973
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.5333333333333333,
+          "success_smoothed": 0.2972972972972973
+        }
+      ]
+    },
+    {
+      "domain": "data_analysis",
+      "model": "GPT-5.3-Codex",
+      "points": [
+        {
+          "log2_minutes": -5.0,
+          "minutes": 0.03125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -4.0,
+          "minutes": 0.0625,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": -3.0,
+          "minutes": 0.125,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 0.0,
+          "minutes": 1.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 1.0,
+          "minutes": 2.0,
+          "success": 1.0,
+          "success_smoothed": 1.0
+        },
+        {
+          "log2_minutes": 2.0,
+          "minutes": 4.0,
+          "success": 0.9090909090909091,
+          "success_smoothed": 0.9090909090909091
+        },
+        {
+          "log2_minutes": 3.0,
+          "minutes": 8.0,
+          "success": 0.8108108108108109,
+          "success_smoothed": 0.8108108108108109
+        },
+        {
+          "log2_minutes": 4.0,
+          "minutes": 16.0,
+          "success": 1.0,
+          "success_smoothed": 0.8108108108108109
+        },
+        {
+          "log2_minutes": 5.0,
+          "minutes": 32.0,
+          "success": 0.96,
+          "success_smoothed": 0.8108108108108109
+        },
+        {
+          "log2_minutes": 6.0,
+          "minutes": 64.0,
+          "success": 0.8928571428571429,
+          "success_smoothed": 0.8108108108108109
+        },
+        {
+          "log2_minutes": 7.0,
+          "minutes": 128.0,
+          "success": 0.6,
+          "success_smoothed": 0.6
+        },
+        {
+          "log2_minutes": 8.0,
+          "minutes": 256.0,
+          "success": 0.3181818181818182,
+          "success_smoothed": 0.3181818181818182
+        },
+        {
+          "log2_minutes": 9.0,
+          "minutes": 512.0,
+          "success": 0.3611111111111111,
+          "success_smoothed": 0.3181818181818182
+        },
+        {
+          "log2_minutes": 10.0,
+          "minutes": 1024.0,
+          "success": 0.25,
+          "success_smoothed": 0.25
+        }
+      ]
+    },
+    {
+      "domain": "ml_research",
       "model": "Gemini 3 Pro",
       "points": [
         {
@@ -7516,55 +8276,55 @@
     {
       "domain": "cybersecurity",
       "doubling_time_months": null,
-      "horizon_ci_high_minutes": 84.8634,
+      "horizon_ci_high_minutes": 95.1036,
       "horizon_ci_low_minutes": 1.0,
-      "horizon_p50_minutes": 53.2465,
+      "horizon_p50_minutes": 66.6681,
       "median_record_minutes": 25.186,
-      "models": 19,
-      "points": 4130
+      "models": 21,
+      "points": 4820
     },
     {
       "domain": "data_analysis",
       "doubling_time_months": null,
-      "horizon_ci_high_minutes": 96.3724,
-      "horizon_ci_low_minutes": 0.4707,
-      "horizon_p50_minutes": 62.1124,
-      "median_record_minutes": 7.571,
-      "models": 19,
-      "points": 6820
+      "horizon_ci_high_minutes": 119.8231,
+      "horizon_ci_low_minutes": 0.5,
+      "horizon_p50_minutes": 69.8326,
+      "median_record_minutes": 8.124,
+      "models": 21,
+      "points": 7762
     },
     {
       "domain": "ml_research",
       "doubling_time_months": null,
-      "horizon_ci_high_minutes": 90.5097,
+      "horizon_ci_high_minutes": 97.0059,
       "horizon_ci_low_minutes": 64.0,
-      "horizon_p50_minutes": 67.2093,
+      "horizon_p50_minutes": 72.596,
       "median_record_minutes": 480.0,
-      "models": 19,
-      "points": 2215
+      "models": 21,
+      "points": 2609
     },
     {
       "domain": "reasoning",
       "doubling_time_months": null,
-      "horizon_ci_high_minutes": 30.381,
+      "horizon_ci_high_minutes": 30.2959,
       "horizon_ci_low_minutes": 2.0,
-      "horizon_p50_minutes": 6.5076,
+      "horizon_p50_minutes": 9.3795,
       "median_record_minutes": 0.1577,
-      "models": 19,
-      "points": 5077
+      "models": 21,
+      "points": 5643
     },
     {
       "domain": "software_engineering",
       "doubling_time_months": null,
-      "horizon_ci_high_minutes": 311.1084,
+      "horizon_ci_high_minutes": 337.794,
       "horizon_ci_low_minutes": 7.1272,
-      "horizon_p50_minutes": 183.9631,
+      "horizon_p50_minutes": 209.7929,
       "median_record_minutes": 14.737,
-      "models": 19,
-      "points": 2773
+      "models": 21,
+      "points": 3174
     }
   ],
-  "generated_at": "2026-03-02T06:49:45.601835+00:00",
+  "generated_at": "2026-03-09T06:54:25.752681+00:00",
   "meta": {
     "domains": [
       "cybersecurity",
@@ -7583,200 +8343,200 @@
         "is_sota": true,
         "model": "Claude Opus 4.6 (Inspect)",
         "model_key": "claude_opus_4_6_inspect",
-        "p50_hours": 870.027186,
-        "p50_minutes": 52201.631160000004,
-        "p80_hours": 62.851039,
-        "p80_minutes": 3771.06234,
+        "p50_hours": 718.80683,
+        "p50_minutes": 43128.4098,
+        "p80_hours": 69.874587,
+        "p80_minutes": 4192.47522,
         "release_date": "2026-02-05"
       },
       {
         "is_sota": true,
         "model": "GPT-5.2",
         "model_key": "gpt_5_2",
-        "p50_hours": 394.383957,
-        "p50_minutes": 23663.03742,
-        "p80_hours": 55.134067,
-        "p80_minutes": 3308.0440200000003,
+        "p50_hours": 352.249302,
+        "p50_minutes": 21134.95812,
+        "p80_hours": 66.002649,
+        "p80_minutes": 3960.1589400000003,
         "release_date": "2025-12-11"
       },
       {
         "is_sota": false,
         "model": "GPT-5.3-Codex",
         "model_key": "gpt_5_3_codex",
-        "p50_hours": 389.977021,
-        "p50_minutes": 23398.62126,
-        "p80_hours": 46.520581,
-        "p80_minutes": 2791.23486,
+        "p50_hours": 349.530732,
+        "p50_minutes": 20971.84392,
+        "p80_hours": 54.739407,
+        "p80_minutes": 3284.36442,
         "release_date": "2026-02-05"
       },
       {
         "is_sota": true,
         "model": "Claude Opus 4.5 (Inspect)",
         "model_key": "claude_opus_4_5_inspect",
-        "p50_hours": 320.422486,
-        "p50_minutes": 19225.349159999998,
-        "p80_hours": 41.551151,
-        "p80_minutes": 2493.06906,
+        "p50_hours": 292.994594,
+        "p50_minutes": 17579.67564,
+        "p80_hours": 49.430584,
+        "p80_minutes": 2965.8350400000004,
         "release_date": "2025-11-24"
       },
       {
         "is_sota": true,
         "model": "Gemini 3 Pro",
         "model_key": "gemini_3_pro",
-        "p50_hours": 236.654674,
-        "p50_minutes": 14199.28044,
-        "p80_hours": 43.435618,
-        "p80_minutes": 2606.13708,
+        "p50_hours": 224.325884,
+        "p50_minutes": 13459.55304,
+        "p80_hours": 54.142849,
+        "p80_minutes": 3248.57094,
         "release_date": "2025-11-18"
       },
       {
         "is_sota": false,
         "model": "GPT-5.1 Codex Max (Inspect)",
         "model_key": "gpt_5_1_codex_max_inspect",
-        "p50_hours": 236.548491,
-        "p50_minutes": 14192.90946,
-        "p80_hours": 40.998357,
-        "p80_minutes": 2459.90142,
+        "p50_hours": 223.714694,
+        "p50_minutes": 13422.88164,
+        "p80_hours": 50.632499,
+        "p80_minutes": 3037.94994,
         "release_date": "2025-11-19"
       },
       {
         "is_sota": true,
         "model": "gpt 5 2025 08 07 inspect",
         "model_key": "gpt_5_2025_08_07_inspect",
-        "p50_hours": 213.954459,
-        "p50_minutes": 12837.26754,
-        "p80_hours": 31.643807,
-        "p80_minutes": 1898.62842,
+        "p50_hours": 203.012577,
+        "p50_minutes": 12180.75462,
+        "p80_hours": 38.312431,
+        "p80_minutes": 2298.74586,
         "release_date": "2025-08-07"
       },
       {
         "is_sota": true,
         "model": "o3 inspect",
         "model_key": "o3_inspect",
-        "p50_hours": 120.730463,
-        "p50_minutes": 7243.82778,
-        "p80_hours": 23.909039,
-        "p80_minutes": 1434.54234,
+        "p50_hours": 119.732634,
+        "p50_minutes": 7183.95804,
+        "p80_hours": 29.981603,
+        "p80_minutes": 1798.89618,
         "release_date": "2025-04-16"
-      },
-      {
-        "is_sota": false,
-        "model": "Claude 4 Opus (Inspect)",
-        "model_key": "claude_4_opus_inspect",
-        "p50_hours": 101.182643,
-        "p50_minutes": 6070.9585799999995,
-        "p80_hours": 16.642056,
-        "p80_minutes": 998.52336,
-        "release_date": "2025-05-22"
       },
       {
         "is_sota": false,
         "model": "Claude 4.1 Opus (Inspect)",
         "model_key": "claude_4_1_opus_inspect",
-        "p50_hours": 100.84381,
-        "p50_minutes": 6050.6286,
-        "p80_hours": 18.851872,
-        "p80_minutes": 1131.11232,
+        "p50_hours": 100.472004,
+        "p50_minutes": 6028.32024,
+        "p80_hours": 23.455761,
+        "p80_minutes": 1407.34566,
         "release_date": "2025-08-05"
+      },
+      {
+        "is_sota": false,
+        "model": "Claude 4 Opus (Inspect)",
+        "model_key": "claude_4_opus_inspect",
+        "p50_hours": 100.366123,
+        "p50_minutes": 6021.96738,
+        "p80_hours": 20.429752,
+        "p80_minutes": 1225.78512,
+        "release_date": "2025-05-22"
       },
       {
         "is_sota": true,
         "model": "claude 3 7 sonnet inspect",
         "model_key": "claude_3_7_sonnet_inspect",
-        "p50_hours": 59.763762,
-        "p50_minutes": 3585.82572,
-        "p80_hours": 9.792108,
-        "p80_minutes": 587.52648,
+        "p50_hours": 60.388937,
+        "p50_minutes": 3623.33622,
+        "p80_hours": 12.09179,
+        "p80_minutes": 725.5074,
         "release_date": "2025-02-24"
       },
       {
         "is_sota": true,
         "model": "o1 inspect",
         "model_key": "o1_inspect",
-        "p50_hours": 37.937543,
-        "p50_minutes": 2276.25258,
-        "p80_hours": 5.720742,
-        "p80_minutes": 343.24452,
+        "p50_hours": 38.831588,
+        "p50_minutes": 2329.89528,
+        "p80_hours": 7.090121,
+        "p80_minutes": 425.40726,
         "release_date": "2024-12-05"
       },
       {
         "is_sota": true,
         "model": "claude 3 5 sonnet 20241022 inspect",
         "model_key": "claude_3_5_sonnet_20241022_inspect",
-        "p50_hours": 19.776241,
-        "p50_minutes": 1186.5744599999998,
-        "p80_hours": 2.110812,
-        "p80_minutes": 126.64872000000001,
+        "p50_hours": 20.522872,
+        "p50_minutes": 1231.37232,
+        "p80_hours": 2.595677,
+        "p80_minutes": 155.74061999999998,
         "release_date": "2024-10-22"
       },
       {
         "is_sota": true,
         "model": "o1 preview",
         "model_key": "o1_preview",
-        "p50_hours": 19.395096,
-        "p50_minutes": 1163.7057599999998,
-        "p80_hours": 3.407526,
-        "p80_minutes": 204.45156,
+        "p50_hours": 20.326586,
+        "p50_minutes": 1219.5951599999999,
+        "p80_hours": 4.420545,
+        "p80_minutes": 265.23269999999997,
         "release_date": "2024-09-12"
       },
       {
         "is_sota": true,
         "model": "claude 3 5 sonnet 20240620 inspect",
         "model_key": "claude_3_5_sonnet_20240620_inspect",
-        "p50_hours": 10.771603,
-        "p50_minutes": 646.29618,
-        "p80_hours": 1.319663,
-        "p80_minutes": 79.17978000000001,
+        "p50_hours": 11.395377,
+        "p50_minutes": 683.72262,
+        "p80_hours": 1.671757,
+        "p80_minutes": 100.30542,
         "release_date": "2024-06-20"
       },
       {
         "is_sota": true,
         "model": "gpt 4o inspect",
         "model_key": "gpt_4o_inspect",
-        "p50_hours": 6.404471,
-        "p50_minutes": 384.26826,
-        "p80_hours": 0.947734,
-        "p80_minutes": 56.864039999999996,
+        "p50_hours": 6.991195,
+        "p50_minutes": 419.4717,
+        "p80_hours": 1.267009,
+        "p80_minutes": 76.02054,
         "release_date": "2024-05-13"
       },
       {
         "is_sota": true,
         "model": "gpt 4 1106 inspect",
         "model_key": "gpt_4_1106_inspect",
-        "p50_hours": 3.609578,
-        "p50_minutes": 216.57468,
-        "p80_hours": 0.563384,
-        "p80_minutes": 33.80304,
+        "p50_hours": 4.044959,
+        "p50_minutes": 242.69754000000003,
+        "p80_hours": 0.783032,
+        "p80_minutes": 46.981919999999995,
         "release_date": "2023-11-06"
-      },
-      {
-        "is_sota": false,
-        "model": "claude 3 opus inspect",
-        "model_key": "claude_3_opus_inspect",
-        "p50_hours": 3.575399,
-        "p50_minutes": 214.52394,
-        "p80_hours": 0.476819,
-        "p80_minutes": 28.60914,
-        "release_date": "2024-03-04"
       },
       {
         "is_sota": true,
         "model": "gpt 4",
         "model_key": "gpt_4",
-        "p50_hours": 3.524514,
-        "p50_minutes": 211.47084,
-        "p80_hours": 0.621658,
-        "p80_minutes": 37.29948,
+        "p50_hours": 3.987428,
+        "p50_minutes": 239.24568,
+        "p80_hours": 0.889561,
+        "p80_minutes": 53.37366,
         "release_date": "2023-03-14"
+      },
+      {
+        "is_sota": false,
+        "model": "claude 3 opus inspect",
+        "model_key": "claude_3_opus_inspect",
+        "p50_hours": 3.952262,
+        "p50_minutes": 237.13572000000002,
+        "p80_hours": 0.638973,
+        "p80_minutes": 38.33838,
+        "release_date": "2024-03-04"
       },
       {
         "is_sota": false,
         "model": "gpt 4 turbo inspect",
         "model_key": "gpt_4_turbo_inspect",
-        "p50_hours": 3.225159,
-        "p50_minutes": 193.50954000000002,
-        "p80_hours": 0.617128,
-        "p80_minutes": 37.027680000000004,
+        "p50_hours": 3.732787,
+        "p50_minutes": 223.96722,
+        "p80_hours": 0.927933,
+        "p80_minutes": 55.67598,
         "release_date": "2024-04-09"
       },
       {
@@ -7870,6 +8630,14 @@
       "release_date": ""
     },
     {
+      "beta_proxy": -0.069037,
+      "domain": "cybersecurity",
+      "horizon_minutes": 148.9568,
+      "model": "Claude Opus 4.6 (Inspect)",
+      "n_points": 305,
+      "release_date": ""
+    },
+    {
       "beta_proxy": -0.087833,
       "domain": "cybersecurity",
       "horizon_minutes": 1.8661,
@@ -7923,6 +8691,14 @@
       "horizon_minutes": 83.4518,
       "model": "GPT-5.2",
       "n_points": 211,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.069422,
+      "domain": "cybersecurity",
+      "horizon_minutes": 118.7172,
+      "model": "GPT-5.3-Codex",
+      "n_points": 385,
       "release_date": ""
     },
     {
@@ -8022,6 +8798,14 @@
       "release_date": ""
     },
     {
+      "beta_proxy": -0.040192,
+      "domain": "data_analysis",
+      "horizon_minutes": 107.6347,
+      "model": "Claude Opus 4.6 (Inspect)",
+      "n_points": 438,
+      "release_date": ""
+    },
+    {
       "beta_proxy": -0.073699,
       "domain": "data_analysis",
       "horizon_minutes": 0.3536,
@@ -8075,6 +8859,14 @@
       "horizon_minutes": 119.8231,
       "model": "GPT-5.2",
       "n_points": 327,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.046862,
+      "domain": "data_analysis",
+      "horizon_minutes": 163.6919,
+      "model": "GPT-5.3-Codex",
+      "n_points": 504,
       "release_date": ""
     },
     {
@@ -8174,6 +8966,14 @@
       "release_date": ""
     },
     {
+      "beta_proxy": -0.085882,
+      "domain": "ml_research",
+      "horizon_minutes": 512.0,
+      "model": "Claude Opus 4.6 (Inspect)",
+      "n_points": 179,
+      "release_date": ""
+    },
+    {
       "beta_proxy": 0.0,
       "domain": "ml_research",
       "horizon_minutes": 64.0,
@@ -8227,6 +9027,14 @@
       "horizon_minutes": 90.5097,
       "model": "GPT-5.2",
       "n_points": 111,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.159409,
+      "domain": "ml_research",
+      "horizon_minutes": 111.4305,
+      "model": "GPT-5.3-Codex",
+      "n_points": 215,
       "release_date": ""
     },
     {
@@ -8326,6 +9134,14 @@
       "release_date": ""
     },
     {
+      "beta_proxy": -0.072487,
+      "domain": "reasoning",
+      "horizon_minutes": 17.6654,
+      "model": "Claude Opus 4.6 (Inspect)",
+      "n_points": 282,
+      "release_date": ""
+    },
+    {
       "beta_proxy": -0.075863,
       "domain": "reasoning",
       "horizon_minutes": 2.0,
@@ -8379,6 +9195,14 @@
       "horizon_minutes": 30.7215,
       "model": "GPT-5.2",
       "n_points": 188,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.073644,
+      "domain": "reasoning",
+      "horizon_minutes": 7.2458,
+      "model": "GPT-5.3-Codex",
+      "n_points": 284,
       "release_date": ""
     },
     {
@@ -8478,6 +9302,14 @@
       "release_date": ""
     },
     {
+      "beta_proxy": -0.033084,
+      "domain": "software_engineering",
+      "horizon_minutes": 337.794,
+      "model": "Claude Opus 4.6 (Inspect)",
+      "n_points": 187,
+      "release_date": ""
+    },
+    {
       "beta_proxy": -0.078732,
       "domain": "software_engineering",
       "horizon_minutes": 7.2888,
@@ -8531,6 +9363,14 @@
       "horizon_minutes": 337.794,
       "model": "GPT-5.2",
       "n_points": 124,
+      "release_date": ""
+    },
+    {
+      "beta_proxy": -0.044714,
+      "domain": "software_engineering",
+      "horizon_minutes": 337.794,
+      "model": "GPT-5.3-Codex",
+      "n_points": 214,
       "release_date": ""
     },
     {
