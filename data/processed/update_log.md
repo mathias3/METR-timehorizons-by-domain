@@ -1,3 +1,7 @@
+## 2026-03-23 07:02:17Z
+- domains: cybersecurity, data_analysis, ml_research, reasoning, software_engineering
+- model_count: 21
+- sample_models: Claude 3 Opus (Inspect), Claude 3.5 Sonnet (New) (Inspect), Claude 3.5 Sonnet (Old) (Inspect), Claude 3.7 Sonnet (Inspect), Claude 4 Opus (Inspect), Claude 4.1 Opus (Inspect), Claude Opus 4.5 (Inspect), Claude Opus 4.6 (Inspect), GPT-4 0314, GPT-4 1106 (Inspect)
 ## 2026-03-16 07:08:29Z
 - domains: cybersecurity, data_analysis, ml_research, reasoning, software_engineering
 - model_count: 21
