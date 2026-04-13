@@ -8324,7 +8324,7 @@
       "points": 3174
     }
   ],
-  "generated_at": "2026-04-06T07:21:30.129962+00:00",
+  "generated_at": "2026-04-13T07:53:09.100812+00:00",
   "meta": {
     "domains": [
       "cybersecurity",
@@ -8368,6 +8368,16 @@
         "p80_hours": 54.739407,
         "p80_minutes": 3284.36442,
         "release_date": "2026-02-05"
+      },
+      {
+        "is_sota": false,
+        "model": "gpt 5 4",
+        "model_key": "gpt_5_4",
+        "p50_hours": 341.735276,
+        "p50_minutes": 20504.11656,
+        "p80_hours": 53.877851,
+        "p80_minutes": 3232.67106,
+        "release_date": "2026-03-05"
       },
       {
         "is_sota": true,
@@ -8543,30 +8553,30 @@
         "is_sota": true,
         "model": "gpt 3 5 turbo instruct",
         "model_key": "gpt_3_5_turbo_instruct",
-        "p50_hours": 0.604245,
-        "p50_minutes": 36.2547,
-        "p80_hours": 0.1731,
-        "p80_minutes": 10.386000000000001,
+        "p50_hours": 0.599247,
+        "p50_minutes": 35.95482,
+        "p80_hours": 0.25538,
+        "p80_minutes": 15.322799999999999,
         "release_date": "2022-03-15"
       },
       {
         "is_sota": true,
         "model": "davinci 002",
         "model_key": "davinci_002",
-        "p50_hours": 0.148793,
-        "p50_minutes": 8.92758,
-        "p80_hours": 0.034139,
-        "p80_minutes": 2.04834,
+        "p50_hours": 0.144057,
+        "p50_minutes": 8.643419999999999,
+        "p80_hours": 0.056238,
+        "p80_minutes": 3.37428,
         "release_date": "2020-05-28"
       },
       {
         "is_sota": true,
         "model": "gpt2",
         "model_key": "gpt2",
-        "p50_hours": 0.039762,
-        "p50_minutes": 2.38572,
-        "p80_hours": 0.005652,
-        "p80_minutes": 0.33912,
+        "p50_hours": 0.053778,
+        "p50_minutes": 3.22668,
+        "p80_hours": 0.0128,
+        "p80_minutes": 0.768,
         "release_date": "2019-02-14"
       }
     ],
