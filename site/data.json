@@ -8324,7 +8324,7 @@
       "points": 3174
     }
   ],
-  "generated_at": "2026-04-13T07:53:09.100812+00:00",
+  "generated_at": "2026-04-20T07:56:10.622109+00:00",
   "meta": {
     "domains": [
       "cybersecurity",
@@ -8348,6 +8348,16 @@
         "p80_hours": 69.874587,
         "p80_minutes": 4192.47522,
         "release_date": "2026-02-05"
+      },
+      {
+        "is_sota": false,
+        "model": "gemini 3 1 pro",
+        "model_key": "gemini_3_1_pro",
+        "p50_hours": 384.147435,
+        "p50_minutes": 23048.8461,
+        "p80_hours": 89.801503,
+        "p80_minutes": 5388.09018,
+        "release_date": "2026-02-19"
       },
       {
         "is_sota": true,
