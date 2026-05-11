@@ -8324,7 +8324,7 @@
       "points": 3174
     }
   ],
-  "generated_at": "2026-05-04T08:22:05.281881+00:00",
+  "generated_at": "2026-05-11T09:29:08.870190+00:00",
   "meta": {
     "domains": [
       "cybersecurity",
@@ -8339,6 +8339,16 @@
     "benchmark_name": "METR-Horizon-v1.1",
     "latest_metr_report": "time-horizon-1-1",
     "models": [
+      {
+        "is_sota": true,
+        "model": "claude mythos preview early inspect",
+        "model_key": "claude_mythos_preview_early_inspect",
+        "p50_hours": 1044.780145,
+        "p50_minutes": 62686.808699999994,
+        "p80_hours": 185.911829,
+        "p80_minutes": 11154.70974,
+        "release_date": "2026-04-07"
+      },
       {
         "is_sota": true,
         "model": "Claude Opus 4.6 (Inspect)",
